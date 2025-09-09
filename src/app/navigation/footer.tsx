@@ -39,10 +39,10 @@ export const Footer = () => {
               <OpenMapsIcon />
             </div>
             <div className='flex flex-col mt-4 space-y-1 text-sm'>
-              <a href="mailto:your.email@example.com" className="hover:text-white transition-colors">
-                your.email@example.com
+              <a href="mailto:ingerslev-autoteknik@example.com" className="hover:text-white transition-colors">
+                ingerslev-autoteknik@example.com
               </a>
-              <a href="mailto:your.email@example.com" className="hover:text-white transition-colors">
+              <a href="tel:88888888" className="hover:text-white transition-colors">
                 88888888
               </a>
             </div>
@@ -54,22 +54,22 @@ export const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-gray-300 hover:text-white transition-colors">
-                  Home
+                  Service
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
-                  About
+                <Link href="/#about" className="text-gray-300 hover:text-white transition-colors">
+                  Reperation
                 </Link>
               </li>
               <li>
-                <Link href="/projects" className="text-gray-300 hover:text-white transition-colors">
-                  Projects
+                <Link href="/#projects" className="text-gray-300 hover:text-white transition-colors">
+                  Kontakt
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-gray-300 hover:text-white transition-colors">
-                  Blog
+                <Link href="/#blog" className="text-gray-300 hover:text-white transition-colors">
+                  Om værkstedet
                 </Link>
               </li>
             </ul>

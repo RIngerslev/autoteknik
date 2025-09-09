@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="fixed bg-white top-0 left-0 w-full z-50 flex items-center justify-between px-2 md:px-4 py-1.5 border-b shadow-md">
             <div className="flex items-center bg-[#264230] rounded-4xl px-1 py-1 shadow-xl">
                 <Link href="/" className="flex items-center justify-center bg-white w-14 h-14 rounded-full shadow-md">
-                    <h1 className="text-black">JA</h1>
+                    <h1 className="text-black">?</h1>
                 </Link>
             </div>
             <div className="hidden md:flex items-center space-x-6">
