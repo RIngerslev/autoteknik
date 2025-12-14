@@ -6,7 +6,7 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="flex mt-auto bottom-0 w-full bg-[#264230] text-white">
+    <footer className="flex mt-auto bottom-0 w-full bg-primary text-white">
       <div className="max-w-5xl mx-auto px-2 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand/About Section */}
@@ -42,8 +42,8 @@ export const Footer = () => {
               <a href="mailto:ingerslev-autoteknik@example.com" className="hover:text-white transition-colors">
                 ingerslev-autoteknik@example.com
               </a>
-              <a href="tel:88888888" className="hover:text-white transition-colors">
-                88888888
+              <a href="tel:30237077" className="hover:text-white transition-colors">
+                30 23 70 77
               </a>
             </div>
           </div>
@@ -89,9 +89,9 @@ export const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-8 pt-8 border-t border-gray-400">
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <p className="text-gray-300 text-sm">
-              © {currentYear} Ingerslev Autoteknik. Alle rettigheder forbeholdt.
-            </p>
+            <div className="text-gray-300 text-sm md:text-lg">
+              © {currentYear} JMV Autoteknik. Alle rettigheder forbeholdt.
+            </div>
           </div>
         </div>
       </div>
