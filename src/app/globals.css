@@ -15,6 +15,68 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+    --scrollbar-width: 8px;
+    --scrollbar-gap: 2px;
+    --scrollbar-track: transparent;
+    --scrollbar-radius: 999px;
+}
+
+/* Modern WebKit / Blink / Chromium */
+*::-webkit-scrollbar {
+    width: var(--scrollbar-width);
+    height: var(--scrollbar-width);
+}
+*::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+    margin: var(--scrollbar-gap);
+    border-radius: var(--scrollbar-radius);
+}
+*::-webkit-scrollbar-thumb {
+    border-radius: var(--scrollbar-radius);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+/* Firefox */
+html {
+    scrollbar-width: thin; /* auto | thin | none */
+    scrollbar-color: var(--scrollbar-track); /* thumb track */
+}
+
+/* Legacy IE / old Edge: prefer autohiding thin behavior */
+body, .js-scroll-wrap {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+/* Optional: visually hide native scrollbar for elements where you want to use the JS overlay fallback */
+.js-scroll-wrap.hide-native-scrollbar {
+    scrollbar-width: none; /* firefox */
+}
+.js-scroll-wrap.hide-native-scrollbar::-webkit-scrollbar {
+    display: none; /* webkit */
+}
+
+/* Overlay scrollbar (used by JS fallback) */
+.overlay-scrollbar-track {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: var(--scrollbar-width);
+    bottom: 4px;
+    background: transparent;
+    border-radius: var(--scrollbar-radius);
+    pointer-events: none;
+    z-index: 9999;
+}
+.overlay-scrollbar-thumb {
+    position: absolute;
+    right: 0;
+    width: var(--scrollbar-width);
+    border-radius: var(--scrollbar-radius);
+    pointer-events: auto;
+    cursor: pointer;
+    transition: background .15s;
 }
 
 @theme inline {
@@ -48,6 +110,8 @@ h2 {
 p {
   font-size: medium;
 }
+
+
 
 .btn {
   position: absolute;

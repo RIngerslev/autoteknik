@@ -23,13 +23,13 @@ export default function Navbar() {
                 <Link href="/service" className="text-white hover:text-gray-900">
                     Service
                 </Link>
-                <Link href="#holdtræning" className="text-white hover:text-gray-900">
-                    Reperation
+                <Link href="/reparation" className="text-white hover:text-gray-900">
+                    Reparation
                 </Link>
-                <Link href="#tilskud" className="text-white hover:text-gray-900">
+                <Link href="/kontakt" className="text-white hover:text-gray-900">
                     Kontakt
                 </Link>
-                <Link href="#om" className="text-white hover:text-gray-900">
+                <Link href="/om" className="text-white hover:text-gray-900">
                     Om værkstedet
                 </Link>
             </div>
@@ -46,10 +46,10 @@ export default function Navbar() {
                     <span className="buttonSpan"></span><span className="buttonSpan"></span><span className="buttonSpan"></span>
                 </button>
                 <div className={`navigation absolute inset-0 h-screen text-2xl text-white top-full px-8 py-10 left-0 w-full bg-primary shadow-md transition-all duration-250 ${menuActive ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-25 pointer-events-none"}`}>
-                    <Link href="#priser" className="block py-2 hover:text-gray-900" onClick={handleMenuClick}>Service</Link>
-                    <Link href="#holdtræning" className="block py-2 hover:text-gray-900" onClick={handleMenuClick}>Reperation</Link>
-                    <Link href="#tilskud" className="block py-2 hover:text-gray-900" onClick={handleMenuClick}>Kontakt</Link>
-                    <Link href="#om" className="block py-2 hover:text-gray-900" onClick={handleMenuClick}>Om værkstedet</Link>
+                    <Link href="/service" className="block py-2 hover:text-gray-900" onClick={handleMenuClick}>Service</Link>
+                    <Link href="/reparation" className="block py-2 hover:text-gray-900" onClick={handleMenuClick}>Reparation</Link>
+                    <Link href="/kontakt" className="block py-2 hover:text-gray-900" onClick={handleMenuClick}>Kontakt</Link>
+                    <Link href="/om" className="block py-2 hover:text-gray-900" onClick={handleMenuClick}>Om værkstedet</Link>
                 </div>
             </div>
         </div>

@@ -1,10 +1,6 @@
-import Navbar from "@/app/navigation/navBar";
-import {Footer} from "@/app/navigation/footer";
-
 export default function ServicePage() {
   return (
       <div className="bg-white min-h-screen flex flex-col items-center">
-          <Navbar />
           <main className="pt-18 flex-1 w-full flex flex-col items-center">
               <h1 className="text-black my-5 font-bold">Service</h1>
               <div className="bg-primary max-w-5xl mx-2 px-5 py-4 mb-10 flex flex-col text-white rounded-2xl shadow-2xl">
@@ -12,7 +8,6 @@ export default function ServicePage() {
                   <p>- test</p>
               </div>
           </main>
-          <Footer />
       </div>
   );
 }
