@@ -8,7 +8,7 @@
     --color-primary: oklch(0.3334 0.1933 264);
     --color-secondary: oklch(0.2882 0.0221 277.51);
     */
-    --color-primary: oklch(0.2891 0.0499 267.27);
+    --color-primary: oklch(0.3084 0.0677 266.46);
     --color-secondary: oklch(0.2891 0.0499 267.27);
 }
 
@@ -129,7 +129,7 @@ p {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   height: 6px;
-  background: #c0c0c0;
+  background: #ffffff;
   border: 1px solid #ffffff;
   transition: all .3s;
   position: relative;
@@ -153,13 +153,13 @@ span+span {
 
 .not-active span:nth-child(2) {
   animation: ease .7s scaled-2 forwards;
-  background: #c0c0c0;
+  background: #ffffff;
   border: 1px solid #ffffff;
 }
 
 .active span:nth-child(3) {
   animation: ease .7s bottom forwards;
-  background: #c0c0c0;
+  background: #ffffff;
   border: 1px solid #ffffff;
 }
 

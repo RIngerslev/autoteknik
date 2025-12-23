@@ -13,9 +13,9 @@ export default function Navbar() {
     return (
         <div className="fixed bg-primary top-0 left-0 w-full z-50 flex items-center justify-between px-2 md:px-4 py-1.5 shadow-md shadow-white/10">
                 <Link href="/" className="flex w-14 h-15">
-                    <div className="flex items-center justify-center">
-                    <div className="text-white text-xl md:text-3xl font-bold">JMV</div>
-                    <div className="text-white text-xl md:text-3xl">Autoteknik</div>
+                    <div className="flex items-center justify-center ml-1">
+                    <div className="text-white text-[1.35rem] md:text-3xl font-bold">JMV</div>
+                    <div className="text-white text-[1.35rem] md:text-3xl">Autoteknik</div>
                     </div>
                 </Link>
             <div className="hidden md:flex items-center space-x-6">

@@ -6,7 +6,7 @@ import ImageSlider from "@/app/swiper";
 export function Frontpage() {
 
     return (
-        <div className='w-full flex flex-col items-center justify-center'>
+        <div className='w-full flex flex-col items-center justify-center bg-gray-50'>
             <div className="relative w-full h-[250px] md:h-[450px] shadow-lg">
                 <Image
                     src="/mercedes-benz.jpg"
@@ -14,7 +14,7 @@ export function Frontpage() {
                     fill
                     className="object-cover"
                 />
-                <div className="absolute inset-0 flex items-center justify-center bg-black/60">
+                <div className="absolute inset-0 flex items-center justify-center bg-black/70">
                     <div className="flex flex-col items-center gap-y-2">
                         <div className="flex flex-row">
                         <div className="text-white text-3xl text-center md:text-6xl font-bold drop-shadow-lg mb-2">
