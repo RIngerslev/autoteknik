@@ -5,7 +5,7 @@ import {IconButton} from "@/app/buttons/iconButton";
 export default function ServicePage() {
     const services = [
         {
-            icon: <Droplets className="w-12 h-12 text-green-600"/>,
+            icon: <Droplets className="w-12 h-12 text-green-700"/>,
             title: "Olieskift",
             interval: "Hvert år eller 15.000 km",
             description: "Motorolie er bilens livsnerve og afgørende for motorens levetid. Gammel olie mister sine smøreegenskaber og kan føre til øget slitage og i værste fald motorskade.",
@@ -19,7 +19,7 @@ export default function ServicePage() {
             color: "green"
         },
         {
-            icon: <Thermometer className="w-12 h-12 text-green-600"/>,
+            icon: <Thermometer className="w-12 h-12 text-green-700"/>,
             title: "Kølervæske Skift",
             interval: "Hver 2-4 år",
             description: "Kølervæske holder motoren ved optimal temperatur og beskytter mod frost og korrosion. Gammel kølervæske mister sine beskyttende egenskaber og kan føre til overophedning.",
@@ -33,7 +33,7 @@ export default function ServicePage() {
             color: "green"
         },
         {
-            icon: <Calendar className="w-12 h-12 text-green-600"/>,
+            icon: <Calendar className="w-12 h-12 text-green-700"/>,
             title: "Periodisk Service",
             interval: "Hvert år eller 20.000 km",
             description: "Regelmæssig service efter producentens anbefalinger sikrer, at din bil kører optimalt og bevarer sin værdi. Vi følger Mercedes-Benz serviceplan nøje.",
@@ -79,7 +79,7 @@ export default function ServicePage() {
                                                 <div className="flex items-center justify-between mb-3">
                                                     <h2 className="text-3xl font-bold text-gray-900">{service.title}</h2>
                                                     <span
-                                                        className={`px-4 py-2 bg-${service.color}-600 text-white rounded-full text-sm font-semibold flex items-center gap-2`}>
+                                                        className={`px-4 py-2 bg-green-700 text-white rounded-full text-sm font-semibold flex items-center gap-2`}>
                                                     <Clock className="w-4 h-4"/>
                                                         {service.interval}
                                                  </span>
@@ -100,7 +100,7 @@ export default function ServicePage() {
                                                     <div>
                                                     <h2 className="text-3xl font-bold text-gray-900 ml-1">{service.title}</h2>
                                                     <span
-                                                        className={`px-3 py-2 mt-2 bg-${service.color}-600 text-white rounded-full text-[0.7rem] font-semibold flex items-center gap-2`}>
+                                                        className={`px-3 py-2 mt-2 bg-${service.color}-700 text-white rounded-full text-[0.7rem] font-semibold flex items-center gap-2`}>
                                                     <Clock className="w-3 h-3"/>
                                                         {service.interval}
                                                  </span>
@@ -114,14 +114,14 @@ export default function ServicePage() {
                                         </div>
                                         <div className={`bg-${service.color}-50 rounded-lg p-6`}>
                                             <h3 className="font-semibold text-lg mb-4 text-gray-900 flex items-center gap-2">
-                                                <Shield className={`w-5 h-5 text-${service.color}-600`}/>
+                                                <Shield className={`w-5 h-5 text-${service.color}-700`}/>
                                                 Hvad er inkluderet:
                                             </h3>
                                             <ul className="space-y-3">
                                                 {service.includes.map((item, i) => (
                                                     <li key={i} className="flex items-start gap-3">
                                                         <CheckCircle
-                                                            className={`w-5 h-5 text-${service.color}-600 flex-shrink-0 mt-0.5`}/>
+                                                            className={`w-5 h-5 text-${service.color}-700 flex-shrink-0 mt-0.5`}/>
                                                         <span className="text-gray-700">{item}</span>
                                                     </li>
                                                 ))}
@@ -140,10 +140,12 @@ export default function ServicePage() {
 
                     <div className="grid md:grid-cols-3 gap-6">
                         <div className="bg-white/10 backdrop-blur rounded-lg p-6">
+                            <div className="flex flex-row">
                             <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
                                 <Shield className="w-6 h-6"/>
                             </div>
-                            <h3 className="font-semibold text-xl mb-3">Sikkerhed</h3>
+                            <div className="font-semibold text-xl ml-3 mt-3">Sikkerhed</div>
+                            </div>
                             <p className="text-blue-100">
                                 Regelmæssig service identificerer potentielle problemer før de bliver farlige og sikrer
                                 at alle sikkerhedssystemer fungerer optimalt.
@@ -151,10 +153,12 @@ export default function ServicePage() {
                         </div>
 
                         <div className="bg-white/10 backdrop-blur rounded-lg p-6">
+                            <div className="flex flex-row">
                             <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
                                 <Droplets className="w-6 h-6"/>
                             </div>
-                            <h3 className="font-semibold text-xl mb-3">Økonomi</h3>
+                            <div className="font-semibold text-xl ml-3 mt-3">Økonomi</div>
+                            </div>
                             <p className="text-blue-100">
                                 Forebyggende vedligeholdelse er langt billigere end akutte reparationer. En serviceret
                                 bil bruger også mindre brændstof og holder længere.
@@ -162,10 +166,12 @@ export default function ServicePage() {
                         </div>
 
                         <div className="bg-white/10 backdrop-blur rounded-lg p-6">
+                            <div className="flex flex-row">
                             <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
                                 <Calendar className="w-6 h-6"/>
                             </div>
-                            <h3 className="font-semibold text-xl mb-3">Værdi</h3>
+                            <h3 className="font-semibold text-xl ml-3 mt-3">Værdi</h3>
+                            </div>
                             <p className="text-blue-100">
                                 En bil med dokumenteret servicehistorik har en betydeligt højere gensalgsværdi og er
                                 nemmere at sælge når tiden kommer.
