@@ -1,6 +1,4 @@
-import { Frontpage } from "./frontpage";
-import { Footer } from "./navigation/footer";
-import Navbar from "./navigation/navBar";
+import {Frontpage} from "./frontpage";
 
 
 export default function Home() {

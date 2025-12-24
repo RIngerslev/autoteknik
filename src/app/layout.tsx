@@ -15,8 +15,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "JMV Autoteknik",
-  description: "Created by Ingerslev Software",
+    title: "JMV Autoteknik – Speciale i Mercedes & autoværksted i Silkeborg",
+    description:
+        "JMV Autoteknik er et professionelt autoværksted i Silkeborg med speciale i Mercedes-Benz. Her serviceres og repareres alle bilmærker med fokus på kvalitet, ærlighed og høj faglighed.",
+    openGraph: {
+        title: "JMV Autoteknik – Autoværksted i Silkeborg",
+        description:
+            "Mercedes specialist i Silkeborg. JMV Autoteknik servicerer og reparerer alle bilmærker med høj kvalitet.",
+        locale: "da_DK",
+        type: "website",
+    }
 };
 
 export default function RootLayout({

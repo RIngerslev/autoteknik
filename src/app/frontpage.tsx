@@ -25,8 +25,8 @@ export function Frontpage() {
                         </div>
                         </div>
                         <div className="flex items-center gap-x-3">
-                            <IconButton className="bg-primary" text='Bestil tid' iconName='phone' href="tel:30237077"/>
-                            <IconButton className="bg-primary" text='Send e-mail' iconName='mail' href="mailto:jacobingerslev@hotmail.com"/>
+                            <IconButton className="bg-primary text-white" text='Bestil tid' iconName='phone' href="tel:30237077"/>
+                            <IconButton className="bg-primary text-white" text='Send e-mail' iconName='mail' href="mailto:jacobingerslev@hotmail.com"/>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ export function Frontpage() {
             <div className='max-w-5xl'>
                 <div className="text-black grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
                     <div className='mx-3 md:mr-2 text-xl'>
-                        <h1 className='text-center font-bold mt-4'>Mercedes og AMG specialist</h1>
+                        <h1 className='text-center font-bold mt-4'>Mercedes & AMG specialist</h1>
                         <h2 className='mt-4'>
                             Her er der mange års erfaring med fejlsøgning og reperationer. JMV Autoteknik her mødes kvalitet og konkurrencedygtige priser.
                         </h2>
@@ -74,10 +74,10 @@ export function Frontpage() {
                         </ul>
                         <h2 className='mt-5 font-bold'>Pris: 750 kr. inkl. moms</h2>
                     </div>
-                    <div className='text-black text-center mb-10 font-bold'>
+                    <div className='text-primary text-center mb-10 font-bold'>
                         <h1 className='my-2'>Speciale i Mercedes</h1>
                         <div className='flex mt-8 mx-4'>
-                            <div className='bg-secondary p-2 rounded-l-full shadow-lg'>
+                            <div className='bg-primary p-2 rounded-l-full shadow-lg'>
                                 <Image
                                     src="/Mercedes-Logo.svg"
                                     alt="Beskrivelse"
@@ -86,13 +86,12 @@ export function Frontpage() {
                                     className="mx-auto bg-white p-1 rounded-full"
                                 />
                             </div>
-                            <Image
-                                src="/trustpilot.png"
-                                alt="Beskrivelse"
-                                width={322}
-                                height={70}
-                                className="mx-auto bg-gray-100 border-5 pr-6 rounded-r-full border-secondary"
-                            />
+                            <div className="mx-auto bg-gray-100 border-5 pr-6 rounded-r-full border-primary">
+                                <div className="text-3xl md:text-4xl text-start ml-4 my-2 font-extrabold">
+                                    KVALITET
+                                    & ORDENLIGHED
+                                </div>
+                            </div>
                         </div>
                         <div className='mt-6'>
                             <OpenMapsText/>

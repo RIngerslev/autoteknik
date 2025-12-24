@@ -22,15 +22,25 @@ export const OpenMapsIcon = () => {
   );
 };
 
+export const OpenMapsTextOnly = () => {
+    return (
+        <button onClick={openMaps} className="cursor-pointer">
+            <div className="flex items-center">
+                Industrivej 1, 8653 Them
+            </div>
+        </button>
+    );
+};
+
 const openMaps = () => {
   const address = "Industrivej 1, 8653 Them";
   const encoded = encodeURIComponent(address);
   const userAgent = typeof navigator !== "undefined" ? navigator.userAgent : "";
 
   if (/iPad|iPhone|iPod/.test(userAgent)) {
-    window.location.href = `maps://maps.apple.com/?q=${encoded}`;
+      window.open("https://maps.apple/p/zofiQqWZN3EN7M", '_blank');
   } else if (/android/i.test(userAgent)) {
-    window.location.href = `geo:0,0?q=${encoded}`;
+      window.open("https://maps.app.goo.gl/yvAkd5DyuvKg9rmAA", '_blank');
   } else {
     window.open(`https://maps.google.com/maps?q=${encoded}`, '_blank');
   }
