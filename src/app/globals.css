@@ -8,8 +8,8 @@
     --color-primary: oklch(0.3334 0.1933 264);
     --color-secondary: oklch(0.2882 0.0221 277.51);
     */
-    --color-primary: oklch(0.3084 0.0677 266.46);
-    --color-secondary: oklch(0.2891 0.0499 267.27);
+    --color-primary: oklch(0.2442 0.1093 263.27);
+    --color-secondary: oklch(0.2442 0.1093 263.27);
 }
 
 :root {

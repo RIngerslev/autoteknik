@@ -2,6 +2,7 @@
 import Link from "next/link"
 import {useState} from "react";
 import {IconButton} from "../buttons/iconButton";
+import Image from "next/image";
 
 export default function Navbar() {
     const [menuActive, setMenuActive] = useState(false);
@@ -11,31 +12,28 @@ export default function Navbar() {
     };
 
     return (
-        <div className="fixed bg-primary top-0 left-0 w-full z-50 flex items-center justify-between px-2 md:px-4 py-1.5 shadow-md shadow-white/10">
-                <Link href="/" className="flex w-14 h-15">
-                    <div className="flex items-center justify-center ml-1">
-                    <div className="text-white text-[1.35rem] md:text-3xl font-bold">JMV</div>
-                    <div className="text-white text-[1.35rem] md:text-3xl">Autoteknik</div>
-                    </div>
+        <div className="fixed bg-primary top-0 left-0 w-full z-50 flex items-center justify-between px-2 md:px-4 py-1.5 shadow-md shadow-white/5">
+                <Link href="/" className="flex w-35 h-15 ml-2">
+                    <Image src="JMV-logo-optimized.svg" alt="Logo" width={400} height={400}/>
                 </Link>
             <div className="hidden md:flex items-center space-x-6">
                 <IconButton className="bg-white text-primary" text='Bestil tid' iconName='phonePrimary' href="tel:30237077" />
-                <Link href="/service" className="text-white hover:text-gray-900">
+                <Link href="/service" className="text-white hover:text-gray-300">
                     Service
                 </Link>
-                <Link href="/reparation" className="text-white hover:text-gray-900">
+                <Link href="/reparation" className="text-white hover:text-gray-300">
                     Reparation
                 </Link>
-                <Link href="/kontakt" className="text-white hover:text-gray-900">
+                <Link href="/kontakt" className="text-white hover:text-gray-300">
                     Kontakt
                 </Link>
-                <Link href="/om" className="text-white hover:text-gray-900">
+                <Link href="/om" className="text-white hover:text-gray-300">
                     Om værkstedet
                 </Link>
             </div>
             <div className="md:hidden">
                 <div className="mr-16">
-                    <IconButton className="bg-white text-primary" text="Book tid" iconName='phonePrimary' href="tel:30237077" />
+                    <IconButton className="bg-white text-primary" text="Book tid" iconName='phonePrimary' href="tel:+4530237077" />
                 </div>
                 <button
                     type="button"

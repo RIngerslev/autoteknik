@@ -4,11 +4,12 @@ import {IconButton} from "@/app/buttons/iconButton";
 
 export default function ReparationerPage() {
     return (
-        <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
+        <div className="min-h-screen bg-gray-50 text-shadow-md">
             <div className="max-w-6xl mx-auto px-4 py-12">
                 <div className="flex justify-center items-center my-10">
                     <div className="text-primary font-bold text-2xl md:text-3xl md:my-5">Professionelle Bilreparationer</div>
                 </div>
+
                 {/* Elektronisk Fejlfinding */}
                 <section className="mb-16 bg-white rounded-lg shadow-lg p-8">
                     <div className="flex items-center mb-6">
@@ -170,8 +171,8 @@ export default function ReparationerPage() {
                         Kontakt os i dag for professionel rådgivning og en uforpligtende pris
                     </p>
                     <div className="flex justify-center items-center gap-x-3">
-                        <IconButton className="bg-white text-primary" text='Bestil tid' iconName='phonePrimary' href="tel:30237077"/>
-                        <IconButton className="bg-white text-primary" text='Send e-mail' iconName='mailPrimary' href="mailto:jacobingerslev@hotmail.com"/>
+                        <IconButton className="bg-white text-primary" text='Bestil tid' iconName='phonePrimary' href="tel:+4530237077"/>
+                        <IconButton className="bg-white text-primary" text='Send e-mail' iconName='mailPrimary' href="mailto:kontakt@jmv-autoteknik.dk"/>
                     </div>
                 </section>
             </div>

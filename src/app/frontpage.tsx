@@ -6,7 +6,7 @@ import ImageSlider from "@/app/swiper";
 export function Frontpage() {
 
     return (
-        <div className='w-full flex flex-col items-center justify-center bg-gray-50'>
+        <div className='w-full flex flex-col items-center justify-center bg-gray-50 text-shadow-md'>
             <div className="relative w-full h-[250px] md:h-[450px] shadow-lg">
                 <Image
                     src="/mercedes-benz.jpg"
@@ -16,17 +16,12 @@ export function Frontpage() {
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-black/70">
                     <div className="flex flex-col items-center gap-y-2">
-                        <div className="flex flex-row">
-                        <div className="text-white text-3xl text-center md:text-6xl font-bold drop-shadow-lg mb-2">
-                            JMV
-                        </div>
-                        <div className="text-white text-3xl text-center md:text-6xl font-extralight drop-shadow-lg mb-2">
-                            Autoteknik
-                        </div>
-                        </div>
+                        <Image src="JMV-logo-optimized.svg" alt="Logo" width={400} height={400} className="mb-4 size-1/2 md:size-1/4"/>
                         <div className="flex items-center gap-x-3">
-                            <IconButton className="bg-primary text-white" text='Bestil tid' iconName='phone' href="tel:30237077"/>
-                            <IconButton className="bg-primary text-white" text='Send e-mail' iconName='mail' href="mailto:jacobingerslev@hotmail.com"/>
+                            <IconButton className="bg-primary text-white" text='Bestil tid' iconName='phone'
+                                        href="tel:+4530237077"/>
+                            <IconButton className="bg-primary text-white" text='Send e-mail' iconName='mail'
+                                        href="mailto:kontakt@jmv-autoteknik.dk"/>
                         </div>
                     </div>
                 </div>
@@ -36,7 +31,8 @@ export function Frontpage() {
                     <div className='mx-3 md:mr-2 text-xl'>
                         <h1 className='text-center font-bold mt-4'>Mercedes & AMG specialist</h1>
                         <h2 className='mt-4'>
-                            Her er der mange års erfaring med fejlsøgning og reperationer. JMV Autoteknik her mødes kvalitet og konkurrencedygtige priser.
+                            Her er der mange års erfaring med fejlsøgning og reperationer. JMV Autoteknik her mødes
+                            kvalitet og konkurrencedygtige priser.
                         </h2>
                     </div>
                     <div className='bg-primary mx-2 px-5 py-4 mb-10 flex flex-col text-white rounded-2xl shadow-2xl'>
@@ -66,7 +62,7 @@ export function Frontpage() {
                         <h2>Undgå kostbare reparationer med en grundig gennemgang. Som Mercedes-specialist bliver
                             fejlene fundet tidligt og holder din bil kørende optimalt.</h2>
                         <h2 className="mt-5 mb-1 font-bold">Hvad får du:</h2>
-                        <ul>
+                        <ul className="text-white">
                             <li>✔ Professionel testkørsel</li>
                             <li>✔ Komplet gennemgang på lift</li>
                             <li>✔ Undervogns- og motorrumstjek</li>

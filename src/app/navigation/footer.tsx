@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand/About Section */}
           <div className="col-span-1">
-            <h3 className="text-2xl font-bold mb-4">Ingerslev Biler</h3>
+            <h3 className="text-2xl font-bold mb-4">JMV Autoteknik</h3>
             <p className="text-gray-300 mb-4 max-w-md">
               Din pålidelige partner for kvalitetsreparationer og service af Mercedes
             </p>
@@ -40,11 +40,11 @@ export const Footer = () => {
               <OpenMapsIcon />
             </div>
             <div className='flex flex-col mt-4 space-y-1 text-sm'>
-              <a href="mailto:ingerslev-autoteknik@example.com" className="hover:text-white transition-colors">
-                ingerslev-autoteknik@example.com
+              <a href="mailto:kontakt@jmv-autoteknik.dk" className="hover:text-white transition-colors">
+                  kontakt@jmv-autoteknik.dk
               </a>
-              <a href="tel:30237077" className="hover:text-white transition-colors">
-                30 23 70 77
+              <a href="tel:+4530237077" className="hover:text-white transition-colors">
+                +45 30 23 70 77
               </a>
             </div>
           </div>

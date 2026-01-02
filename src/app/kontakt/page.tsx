@@ -4,18 +4,18 @@ import {OpenMapsText, OpenMapsTextOnly} from "@/app/openMaps";
 
 export default function AboutPage() {
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen bg-gray-50 text-shadow-md">
             {/* Hero Section */}
-            <div className="bg-gray-700 text-white py-10 pt-25">
+            <div className="text-primary py-10 pt-25">
                 <div className="max-w-6xl mx-auto text-center">
-                    <h1 className="text-5xl font-bold mb-6">Kontakt JVM Autoteknik</h1>
-                    <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+                    <div className="text-2xl md:text-3xl font-bold mb-6">Kontakt JVM Autoteknik</div>
+                    <p className="text-xl max-w-3xl mx-auto">
                         Dit lokale autoværksted med specialisering i Mercedes-Benz
                     </p>
                 </div>
             </div>
 
-            <div className="max-w-6xl mx-auto px-4 py-16">
+            <div className="max-w-6xl mx-auto px-4 py-8">
                 {/* Main Content Grid */}
                 <div className="mb-14">
 
@@ -74,8 +74,8 @@ export default function AboutPage() {
                                      <Mail className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
                                      <div className="flex-1">
                                          <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-                                         <a href="mailto:ingerslev-autoteknik@example.com" className="text-gray-700 hover:text-green-600 transition-colors break-all">
-                                             ingerslev-autoteknik@example.com
+                                         <a href="mailto:kontakt@jmv-autoteknik.dk" className="text-gray-700 hover:text-green-600 transition-colors break-all">
+                                             kontakt@jmv-autoteknik.dk
                                          </a>
                                      </div>
                                  </div>

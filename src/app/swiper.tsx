@@ -105,7 +105,7 @@ const ImageSlider = () => {
             >
                 {slides.map((slide) => (
                     <SwiperSlide key={slide.id} className="h-auto">
-                        <div className='h-70 lg:h-80 bg-secondary rounded-xl overflow-hidden'>
+                        <div className='h-70 lg:h-80 bg-primary rounded-xl overflow-hidden'>
                             <div className="relative h-36 lg:h-44">
                                 <Image
                                     src={slide.image}
@@ -139,13 +139,13 @@ const ImageSlider = () => {
                 }
 
                 .custom-bullet-active {
-                    background: #202A44;
+                    background: #031953;
                     transform: scale(1.3);
                 }
 
                 .swiper-button-next,
                 .swiper-button-prev {
-                    color: #202A44;
+                    color: #031953;
                     background: rgba(255, 255, 255, 0.9);
                     border-radius: 50%;
                     width: 40px;

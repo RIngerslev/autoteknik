@@ -1,27 +1,23 @@
 "use client";
 import React from 'react';
-import { MapPin, Clock, Phone, Mail, Car, Wrench, Users } from 'lucide-react';
-import {OpenMapsText, OpenMapsTextOnly} from "@/app/openMaps";
+import {Car, Clock, MapPin, Users, Wrench} from 'lucide-react';
+import {OpenMapsText} from "@/app/openMaps";
 
 export default function AboutPage() {
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen bg-gray-50 text-shadow-md">
             {/* Hero Section */}
-            <div className="bg-gray-700 text-white py-10 pt-25">
+            <div className="text-primary py-10 pt-30">
                 <div className="max-w-6xl mx-auto text-center">
-                    <h1 className="text-5xl font-bold mb-6">Om JVM Autoteknik</h1>
-                    <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                        Dit lokale autoværksted med specialisering i Mercedes-Benz
-                    </p>
+                    <div className="text-2xl md:text-3xl font-bold">Om JMV Autoteknik</div>
                 </div>
             </div>
 
-            <div className="max-w-6xl mx-auto px-4 py-16">
+            <div className="max-w-6xl mx-auto px-4 pb-8">
                 {/* Main Content Grid */}
                 <div className="gap-12 mb-16">
                     {/* About Text */}
                     <div>
-                        <h2 className="flex justify-center text-3xl font-bold text-gray-900 mb-6">Velkommen til JVM Autoteknik</h2>
                         <div className="space-y-4 text-gray-700 leading-relaxed">
                             <p>
                                 Hos JVM Autoteknik er vi specialister i professionel bilreparation og service. Med mange års erfaring og avanceret diagnostisk udstyr tilbyder vi service af højeste kvalitet til Mercedes-Benz og alle andre bilmærker.

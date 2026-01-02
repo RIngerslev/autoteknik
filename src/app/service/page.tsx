@@ -51,10 +51,10 @@ export default function ServicePage() {
     ];
 
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen bg-gray-50 text-shadow-md">
             {/* Hero Section */}
             <div className="flex justify-center items-center flex-col pt-25">
-                <div className="text-primary font-bold text-2xl md:text-3xl md:my-5">Service & Vedligeholdelse</div>
+                <div className="text-primary font-bold text-2xl md:text-3xl my-5">Service & Vedligeholdelse</div>
                 <p className="text-xl text-primary max-w-3xl mx-5">
                     Hold din bil i topform med professionel service. Vi tilbyder alle former for vedligeholdelse til
                     Mercedes-Benz og andre bilmærker.
@@ -271,7 +271,7 @@ export default function ServicePage() {
                         <IconButton className="bg-white text-primary" text='Bestil tid' iconName='phonePrimary'
                                     href="tel:30237077"/>
                         <IconButton className="bg-white text-primary" text='Send e-mail' iconName='mailPrimary'
-                                    href="mailto:jacobingerslev@hotmail.com"/>
+                                    href="mailto:kontakt@jmv-autoteknik.dk"/>
                     </div>
                 </div>
             </div>
