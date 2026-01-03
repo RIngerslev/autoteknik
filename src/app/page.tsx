@@ -1,4 +1,5 @@
-import {Frontpage} from "./frontpage/page";
+import Frontpage from "@/app/frontpage/page";
+
 
 export const metadata = {
     title: "JMV Autoteknik | Dit ekspert værksted i Silkeborg - Industrivej 1",
