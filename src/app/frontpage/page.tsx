@@ -3,7 +3,7 @@ import {IconButton} from '../buttons/iconButton'
 import {OpenMapsText} from '../openMaps'
 import ImageSlider from "@/app/swiper";
 
-export function Page() {
+export function Frontpage() {
 
     return (
         <div className='w-full flex flex-col items-center justify-center bg-gray-50 text-shadow-md'>

@@ -1,4 +1,4 @@
-import {Page} from "./frontpage/page";
+import {Frontpage} from "./frontpage/page";
 
 export const metadata = {
     title: "JMV Autoteknik | Dit ekspert værksted i Silkeborg - Industrivej 1",
@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="bg-white min-h-screen flex flex-col items-center">
       <main className="pt-18 flex-1 w-full flex flex-col items-center">
-        <Page />
+        <Frontpage />
       </main>
     </div>
   );
