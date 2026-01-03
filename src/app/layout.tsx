@@ -15,16 +15,44 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "JMV Autoteknik – Speciale i Mercedes & autoværksted i Silkeborg",
+    title: "JMV Autoteknik | Dit ekspert værksted i Silkeborg - Industrivej 1",
     description:
-        "JMV Autoteknik er et professionelt autoværksted i Silkeborg med speciale i Mercedes-Benz. Her serviceres og repareres alle bilmærker med fokus på kvalitet, ærlighed og høj faglighed.",
+        "Professionelt autoværksted i Silkeborg med speciale i Mercedes-Benz. Ring på 30237077. Her foretages service og reparationer af alle bilmærker.",
     openGraph: {
         title: "JMV Autoteknik – Autoværksted i Silkeborg",
         description:
             "Mercedes specialist i Silkeborg. JMV Autoteknik servicerer og reparerer alle bilmærker med høj kvalitet.",
         locale: "da_DK",
         type: "website",
-    }
+        images: [
+            {
+                url: '/og-image.jpg',
+                width: 1200,
+                height: 630,
+                alt: 'JMV Autoteknik',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'JMV Autoteknik',
+        description: 'Mercedes specialist i Silkeborg.',
+        images: ['/og-image.jpg'],
+    },
+    icons: {
+        icon: [
+            { url: '/favicon.ico' },
+            { url: '/favicon.svg', type: 'image/svg+xml' },
+            { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+        ],
+        apple: [
+            { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+        ],
+    },
+    appleWebApp: {
+        title: 'JMV',
+    },
+    manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({
