@@ -74,16 +74,12 @@ export default function ReparationerPage() {
                                     <CheckCircle className="w-5 h-5 text-green-600 mr-2 mt-1 flex-shrink-0" />
                                     <span className="text-gray-700">Kontrol af dæktryk og mønsterdybde</span>
                                 </li>
-                                <li className="flex items-start">
-                                    <CheckCircle className="w-5 h-5 text-green-600 mr-2 mt-1 flex-shrink-0" />
-                                    <span className="text-gray-700">Beskyttelse mod rust og korrosion</span>
-                                </li>
                             </ul>
                         </div>
 
                         <div>
                             <p className="text-gray-700 mb-4 leading-relaxed">
-                                Sæsonhjulskift er ikke kun et lovkrav, men også afgørende for din sikkerhed og bilens ydeevne. Vinterdæk i sommervarme slides hurtigere, mens sommerdæk på is og sne reducerer vejgrebet markant.
+                                Hjulskift er afgørende for din sikkerhed og bilens ydeevne. Vinterdæk i sommervarme slides hurtigere, mens sommerdæk på is og sne reducerer vejgrebet markant.
                             </p>
                             <p className="text-gray-700 mb-4 leading-relaxed">
                                 Ved professionelt hjulskift kontrollerer vi også hjullejer, bremser og undervogn for slitage og skader. Særligt på Mercedes-Benz er korrekt momentspænding kritisk for at undgå skader på fælge og bolte.
@@ -119,8 +115,7 @@ export default function ReparationerPage() {
                                     <li>• Olie- og filterskift</li>
                                     <li>• Kontrol af kølevæske og bremsevæske</li>
                                     <li>• Inspektion af bremser og dæk</li>
-                                    <li>• Test af lys og elektronik</li>
-                                    <li>• Luftfilterskift</li>
+                                    <li>• Kontrol af lys og lygter</li>
                                     <li>• Computerdiagnostik</li>
                                 </ul>
                             </div>
@@ -131,7 +126,7 @@ export default function ReparationerPage() {
                             <ul className="space-y-3">
                                 <li className="flex items-start">
                                     <CheckCircle className="w-5 h-5 text-green-600 mr-2 mt-1 flex-shrink-0" />
-                                    <span className="text-gray-700">Forlænger bilens levetid betydeligt</span>
+                                    <span className="text-gray-700">Forlænger bilens levetid</span>
                                 </li>
                                 <li className="flex items-start">
                                     <CheckCircle className="w-5 h-5 text-green-600 mr-2 mt-1 flex-shrink-0" />
@@ -157,7 +152,7 @@ export default function ReparationerPage() {
 
                             <div className="mt-6 pt-6 border-t border-green-200">
                                 <p className="text-sm text-gray-700 italic">
-                                    Mercedes-Benz anbefaler service hvert år eller hver 15.000-20.000 km, afhængigt af model og køremønster.
+                                    Mercedes-Benz anbefaler service hvert år eller hver 25.000 km, afhængigt af model og køremønster.
                                 </p>
                             </div>
                         </div>

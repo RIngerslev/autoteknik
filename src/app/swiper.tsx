@@ -32,29 +32,23 @@ const ImageSlider = () => {
         {
             id: 4,
             title: "Diagnose",
-            content: "Avanceret computerdiagnose af alle systemer",
+            content: "Avanceret computerdiagnose og fejlsøgning",
             image: "/car.jpg"
         },
         {
             id: 5,
-            title: "Dæk & Fælge",
-            content: "Stort udvalg af dæk og fælge til alle biler",
+            title: "Hjulskift",
+            content: "Udskiftning af dæk på alle biler",
             image: "/car.jpg"
         },
         {
             id: 6,
-            title: "Klimaanlæg",
-            content: "Service og reparation af klimaanlæg",
-            image: "/car.jpg"
-        },
-        {
-            id: 7,
             title: "Bremser",
             content: "Udskiftning og reparation af bremser",
             image: "/car.jpg"
         },
         {
-            id: 8,
+            id: 7,
             title: "Motorolie",
             content: "Skift af motorolie og filtre",
             image: "/car.jpg"

@@ -7,14 +7,13 @@ export default function ServicePage() {
         {
             icon: <Droplets className="w-12 h-12 text-green-700"/>,
             title: "Olieskift",
-            interval: "Hvert år eller 15.000 km",
+            interval: "Hvert år eller 25.000 km",
             description: "Motorolie er bilens livsnerve og afgørende for motorens levetid. Gammel olie mister sine smøreegenskaber og kan føre til øget slitage og i værste fald motorskade.",
             includes: [
                 "Udskiftning af motorolie",
                 "Nyt oliefilter",
-                "Kontrol af olieniveau og lækage",
-                "Inspektion af motor",
-                "Nulstilling af serviceinterval"
+                "Kontrol af olieniveau",
+                "Inspektion af lækage",
             ],
             color: "green"
         },
@@ -25,26 +24,23 @@ export default function ServicePage() {
             description: "Kølervæske holder motoren ved optimal temperatur og beskytter mod frost og korrosion. Gammel kølervæske mister sine beskyttende egenskaber og kan føre til overophedning.",
             includes: [
                 "Udskiftning af kølervæske",
-                "Gennemskylning af kølesystem",
-                "Kontrol af termostat",
+                "Trykprøvning af kølesystem",
                 "Inspektion af slanger og klemmer",
-                "Tryktest af kølesystem"
             ],
             color: "green"
         },
         {
             icon: <Calendar className="w-12 h-12 text-green-700"/>,
             title: "Periodisk Service",
-            interval: "Hvert år eller 20.000 km",
-            description: "Regelmæssig service efter producentens anbefalinger sikrer, at din bil kører optimalt og bevarer sin værdi. Vi følger Mercedes-Benz serviceplan nøje.",
+            interval: "Hvert år eller 25.000 km",
+            description: "Regelmæssig service efter producentens anbefalinger sikrer, at din bil kører optimalt og bevarer sin værdi. Vi følger fabrikantens forskrifter",
             includes: [
                 "Olie- og filterskift",
                 "Kontrol af alle væsker",
                 "Bremseinspektion",
                 "Dæk og hjulopphæng",
-                "Lys og elektronik test",
+                "Kontrol af lys og lygter",
                 "Computerdiagnostik",
-                "Luftfilter kontrol"
             ],
             color: "green"
         }
@@ -55,7 +51,7 @@ export default function ServicePage() {
             {/* Hero Section */}
             <div className="flex justify-center items-center flex-col pt-25">
                 <div className="text-primary font-bold text-2xl md:text-3xl my-5">Service & Vedligeholdelse</div>
-                <p className="text-xl text-primary max-w-3xl mx-5">
+                <p className="text-xl text-black max-w-3xl mx-5">
                     Hold din bil i topform med professionel service. Vi tilbyder alle former for vedligeholdelse til
                     Mercedes-Benz og andre bilmærker.
                 </p>
@@ -181,7 +177,7 @@ export default function ServicePage() {
                 </div>
 
                 {/* Service Intervals */}
-                <div className="mt-16 bg-white rounded-xl shadow-lg p-1 pt-4 md:pt-0 md:p-8">
+                <div className="mt-16 bg-white rounded-xl shadow-lg p-1 pt-4 md:pt-8 md:p-8">
                     <h2 className="text-3xl font-bold mb-6 text-gray-900 text-center">Service Intervaller</h2>
 
                     <div className="overflow-x-auto">
@@ -196,7 +192,7 @@ export default function ServicePage() {
                             <tbody className="divide-y divide-gray-200 text-black">
                             <tr className="hover:bg-gray-50">
                                 <td className="py-4 px-4">Motorolie & Filter</td>
-                                <td className="py-4 px-4">Hvert år / 15.000 km</td>
+                                <td className="py-4 px-4">Hvert år / 25.000 km</td>
                                 <td className="py-4 px-4">
                                     <span
                                         className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-semibold">Kritisk</span>
@@ -204,7 +200,23 @@ export default function ServicePage() {
                             </tr>
                             <tr className="hover:bg-gray-50">
                                 <td className="py-4 px-4">Luftfilter</td>
-                                <td className="py-4 px-4">Hver 30.000 km</td>
+                                <td className="py-4 px-4">Hver 60.000 km</td>
+                                <td className="py-4 px-4">
+                                    <span
+                                        className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm font-semibold">Vigtig</span>
+                                </td>
+                            </tr>
+                            <tr className="hover:bg-gray-50">
+                                <td className="py-4 px-4">Brændstoffilter</td>
+                                <td className="py-4 px-4">Hver 60.000 km</td>
+                                <td className="py-4 px-4">
+                                    <span
+                                        className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm font-semibold">Vigtig</span>
+                                </td>
+                            </tr>
+                            <tr className="hover:bg-gray-50">
+                                <td className="py-4 px-4">Tændrør</td>
+                                <td className="py-4 px-4">Hver 60.000 km</td>
                                 <td className="py-4 px-4">
                                     <span
                                         className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm font-semibold">Vigtig</span>
@@ -228,15 +240,15 @@ export default function ServicePage() {
                             </tr>
                             <tr className="hover:bg-gray-50">
                                 <td className="py-4 px-4">Gearkasseolie</td>
-                                <td className="py-4 px-4">Hver 60.000 km</td>
+                                <td className="py-4 px-4">Hver 120.000 km</td>
                                 <td className="py-4 px-4">
                                     <span
                                         className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm font-semibold">Vigtig</span>
                                 </td>
                             </tr>
                             <tr className="hover:bg-gray-50">
-                                <td className="py-4 px-4">Tandrem (hvis relevant)</td>
-                                <td className="py-4 px-4">Hver 100.000 km</td>
+                                <td className="py-4 px-4">Kæde / Tandrem</td>
+                                <td className="py-4 px-4">Hver 200.000 km</td>
                                 <td className="py-4 px-4">
                                     <span
                                         className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-semibold">Kritisk</span>

@@ -9,7 +9,7 @@ export default function AboutPage() {
             <div className="text-primary py-10 pt-25">
                 <div className="max-w-6xl mx-auto text-center">
                     <div className="text-2xl md:text-3xl font-bold mb-6">Kontakt JVM Autoteknik</div>
-                    <p className="text-xl max-w-3xl mx-auto">
+                    <p className="text-xl max-w-3xl mx-auto text-black">
                         Dit lokale autoværksted med specialisering i Mercedes-Benz
                     </p>
                 </div>

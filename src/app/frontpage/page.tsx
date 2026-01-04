@@ -29,10 +29,10 @@ export default function Frontpage() {
             <div className='max-w-5xl'>
                 <div className="text-black grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
                     <div className='mx-3 md:mr-2 text-xl'>
-                        <h1 className='text-center font-bold mt-4'>Mercedes & AMG specialist</h1>
+                        <h1 className='text-center font-bold mt-4'>Mercedes-ekspert i Silkeborg</h1>
                         <h2 className='mt-4'>
-                            Her er der mange års erfaring med fejlsøgning og reperationer. JMV Autoteknik her mødes
-                            kvalitet og konkurrencedygtige priser.
+                            Her er der mange års erfaring med avanceret fejlsøgning og komplekse reparationer. JMV Autoteknik her mødes
+                            faglig ekspertise, kvalitet og konkurrencedygtige priser.
                         </h2>
                     </div>
                     <div className='bg-primary mx-2 px-5 py-4 mb-10 flex flex-col text-white rounded-2xl shadow-2xl'>
@@ -59,7 +59,7 @@ export default function Frontpage() {
                 <div className="text-black grid grid-cols-1 md:grid-cols-2 gap-6 my-4 mx-2">
                     <div className='bg-primary px-3 py-3 mb-10 flex flex-col text-white rounded-2xl shadow-2xl'>
                         <h1 className='font-bold'>Få gennemgået din bil</h1>
-                        <h2>Undgå kostbare reparationer med en grundig gennemgang. Som Mercedes-specialist bliver
+                        <h2>Undgå kostbare reparationer med en grundig gennemgang. Som Mercedes-ekspert bliver
                             fejlene fundet tidligt og holder din bil kørende optimalt.</h2>
                         <h2 className="mt-5 mb-1 font-bold">Hvad får du:</h2>
                         <ul className="text-white">
@@ -71,7 +71,7 @@ export default function Frontpage() {
                         <h2 className='mt-5 font-bold'>Pris: 750 kr. inkl. moms</h2>
                     </div>
                     <div className='text-primary text-center mb-10 font-bold'>
-                        <h1 className='my-2'>Speciale i Mercedes</h1>
+                        <h1 className='my-2 text-black'>Speciale i Mercedes</h1>
                         <div className='flex mt-8 mx-4'>
                             <div className='bg-primary p-2 rounded-l-full shadow-lg'>
                                 <Image
@@ -89,7 +89,7 @@ export default function Frontpage() {
                                 </div>
                             </div>
                         </div>
-                        <div className='mt-6'>
+                        <div className='mt-6 text-black'>
                             <OpenMapsText/>
                         </div>
                     </div>

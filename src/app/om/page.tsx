@@ -10,6 +10,7 @@ export default function AboutPage() {
             <div className="text-primary py-10 pt-30">
                 <div className="max-w-6xl mx-auto text-center">
                     <div className="text-2xl md:text-3xl font-bold">Om JMV Autoteknik</div>
+                    <div className="mt-2">Erfaring, kvalitet og passion for Mercedes</div>
                 </div>
             </div>
 
@@ -18,16 +19,19 @@ export default function AboutPage() {
                 <div className="gap-12 mb-16">
                     {/* About Text */}
                     <div>
-                        <div className="space-y-4 text-gray-700 leading-relaxed">
+                        <div className="space-y-4 text-black leading-relaxed">
                             <p>
-                                Hos JVM Autoteknik er vi specialister i professionel bilreparation og service. Med mange års erfaring og avanceret diagnostisk udstyr tilbyder vi service af højeste kvalitet til Mercedes-Benz og alle andre bilmærker.
+                                Hos JMV Autoteknik står mange års erfaring fra autoriserede og specialiserede værksteder bag. Vi har speciale i Mercedes-Benz, men servicerer alle bilmærker med moderne diagnoseudstyr og kvalitets dele.
                             </p>
                             <p>
-                                Vi tror på ærlig rådgivning og transparent kommunikation. Når du kommer til os, får du en grundig gennemgang af din bils tilstand og en klar forklaring på, hvad der skal gøres. Ingen overraskelser, kun professionel håndværk.
+                                Vi tror på ærlig rådgivning og transparent kommunikation. Du får altid en grundig gennemgang af din bils tilstand og en klar forklaring på, hvad der skal gøres. Her er ingen overraskelser, kun professionelt håndværk vi selv kan stå inde for.
                             </p>
-                            <p>
-                                Vores værksted er udstyret med moderne diagnoseværktøj og vi følger altid producentens anbefalinger. Vi bruger originale eller kvalitetsgodkendte dele for at sikre optimal ydeevne og lang levetid.
-                            </p>
+
+                            <h1 className="flex md:justify-center p-2 text-primary">Ærlighed, kvalitet og faglig stolthed</h1>
+                            <p>Et godt værkstedsbesøg handler om tillid. Derfor er ærlig rådgivning og klar kommunikation i fokus. Alle reparationer forklares tydeligt – ingen overraskelser, kun det nødvendige.</p>
+
+                            <h1 className="flex md:justify-center p-2 text-primary">Din bil er i trykke hænder</h1>
+                            <p>JMV Autoteknik kombinerer mange års erfaring med faglig stolthed og passion for detaljen. Med speciale i Mercedes bliver hver bil behandlet med samme omhu og professionalisme – uanset om det er service eller reparation.</p>
                         </div>
 
                         {/* Features */}
@@ -108,7 +112,7 @@ export default function AboutPage() {
                             </div>
                             <h3 className="font-semibold text-xl mb-2">Erfaring</h3>
                             <p className="text-blue-100">
-                                Mange års erfaring med alle bilmærker, især Mercedes-Benz
+                                Mange års erfaring med Mercedes og forskellige bilmærker
                             </p>
                         </div>
                         <div className="text-center">
