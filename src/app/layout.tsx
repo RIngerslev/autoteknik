@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     appleWebApp: {
         title: 'JMV',
     },
-    manifest: '/site.webmanifest',
+    manifest: '/manifest.json',
 };
 
 export default function RootLayout({
