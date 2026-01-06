@@ -6,9 +6,9 @@ export const metadata = {
     description:
         "Professionelt autoværksted i Silkeborg med speciale i Mercedes-Benz. Ring på 30237077. Her foretages service og reparationer af alle bilmærker.",
     openGraph: {
-        url: 'https://jmv-autoteknik.dk/',
+        url: 'https://jmv-autoteknik.dk',
     },
-    alternates: { canonical: 'https://jmv-autoteknik.dk/' },
+    alternates: { canonical: 'https://jmv-autoteknik.dk' },
 };
 
 export default function Home() {

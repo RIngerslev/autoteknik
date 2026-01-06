@@ -2,6 +2,16 @@ import React from 'react';
 import {Droplets, Thermometer, Calendar, Shield, Clock, CheckCircle, AlertCircle} from 'lucide-react';
 import {IconButton} from "@/app/buttons/iconButton";
 
+export const metadata = {
+    title: "JMV Autoteknik | Dit ekspert værksted i Silkeborg - Industrivej 1",
+    description:
+        "Professionelt autoværksted i Silkeborg med speciale i Mercedes-Benz. Ring på 30237077. Her foretages service og reparationer af alle bilmærker.",
+    openGraph: {
+        url: 'https://jmv-autoteknik.dk/service',
+    },
+    alternates: { canonical: 'https://jmv-autoteknik.dk/service' },
+};
+
 export default function ServicePage() {
     const services = [
         {
