@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
     title: "JMV Autoteknik | Dit ekspert værksted i Silkeborg - Industrivej 1",
     description:
-        "Professionelt autoværksted i Silkeborg med speciale i Mercedes-Benz. Ring på 30237077. Her foretages service og reparationer af alle bilmærker.",
+        "Professionelt autoværksted i Silkeborg med speciale i Mercedes. Ring på 30237077. Her foretages service og reparationer af alle bilmærker.",
     openGraph: {
         title: "JMV Autoteknik – Autoværksted i Silkeborg",
         description:

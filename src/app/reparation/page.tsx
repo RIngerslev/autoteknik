@@ -2,15 +2,58 @@ import React from 'react';
 import { Wrench, Cpu, Settings, CheckCircle } from 'lucide-react';
 import {IconButton} from "@/app/buttons/iconButton";
 
-export const metadata = {
-    title: "JMV Autoteknik | Dit ekspert værksted i Silkeborg - Industrivej 1",
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "JMV Autoteknik | Reparation & Service i Silkeborg — Industrivej 1",
     description:
-        "Professionelt autoværksted i Silkeborg med speciale i Mercedes-Benz. Ring på 30237077. Her foretages service og reparationer af alle bilmærker.",
+        "Professionelt autoværksted i Silkeborg med speciale i Mercedes. Service, reparation og elektronisk fejlfinding. Ring på +45 30237077.",
+    authors: [{ name: "JMV Autoteknik", url: "https://jmv-autoteknik.dk" }],
+    publisher: "JMV Autoteknik",
+    category: "Automotive Service",
     openGraph: {
-        url: 'https://jmv-autoteknik.dk/reparation',
+        title: "Reparation & Service — JMV Autoteknik",
+        description:
+            "Professionelt autoværksted i Silkeborg: service, reparation og elektronisk fejlfinding for alle bilmærker — specialiseret i Mercedes.",
+        url: "https://jmv-autoteknik.dk/reparation",
+        siteName: "JMV Autoteknik",
+        type: "website",
+        locale: "da_DK",
+        images: [
+            {
+                url: "https://jmv-autoteknik.dk/og-images/reparation-og.png",
+                width: 1200,
+                height: 630,
+                alt: "JMV Autoteknik - Reparation og service i Silkeborg"
+            }
+        ]
     },
-    alternates: { canonical: 'https://jmv-autoteknik.dk/reparation' },
+    twitter: {
+        card: "summary_large_image",
+        title: "Reparation & Service — JMV Autoteknik",
+        description:
+            "Service og reparation i Silkeborg. Ring +45 30237077.",
+        images: ["https://jmv-autoteknik.dk/og-images/reparation-og.png"],
+    },
+    robots: {
+        index: true,
+        follow: true,
+        nocache: false,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        }
+    },
+    alternates: {
+        canonical: "https://jmv-autoteknik.dk/reparation",
+        languages: {
+            'da-DK': 'https://jmv-autoteknik.dk/reparation',
+        }
+    }
 };
+
 
 export default function ReparationerPage() {
     return (
@@ -30,7 +73,7 @@ export default function ReparationerPage() {
                     <div className="grid md:grid-cols-2 gap-8">
                         <div>
                             <p className="text-gray-700 mb-4 leading-relaxed">
-                                Moderne biler, særligt Mercedes-Benz, er udstyret med avancerede computersystemer der styrer alt fra motor og gearkasse til sikkerhedssystemer og komfortfunktioner. Når en fejl opstår, viser det sig ofte kun som en advarsellampe på instrumentbrættet.
+                                Moderne biler, særligt Mercedes, er udstyret med avancerede computersystemer der styrer alt fra motor og gearkasse til sikkerhedssystemer og komfortfunktioner. Når en fejl opstår, viser det sig ofte kun som en advarsellampe på instrumentbrættet.
                             </p>
                             <p className="text-gray-700 mb-4 leading-relaxed">
                                 Med professionel diagnostisk udstyr kan vi læse fejlkoder direkte fra bilens computer og identificere problemets præcise årsag. Dette sparer tid og penge, da vi undgår unødvendig udskiftning af dele.
@@ -92,7 +135,7 @@ export default function ReparationerPage() {
                                 Hjulskift er afgørende for din sikkerhed og bilens ydeevne. Vinterdæk i sommervarme slides hurtigere, mens sommerdæk på is og sne reducerer vejgrebet markant.
                             </p>
                             <p className="text-gray-700 mb-4 leading-relaxed">
-                                Ved professionelt hjulskift kontrollerer vi også hjullejer, bremser og undervogn for slitage og skader. Særligt på Mercedes-Benz er korrekt momentspænding kritisk for at undgå skader på fælge og bolte.
+                                Ved professionelt hjulskift kontrollerer vi også hjullejer, bremser og undervogn for slitage og skader. Særligt på Mercedes er korrekt momentspænding kritisk for at undgå skader på fælge og bolte.
                             </p>
                             <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 mt-4">
                                 <p className="text-sm text-gray-700">
@@ -113,7 +156,7 @@ export default function ReparationerPage() {
                     <div className="grid md:grid-cols-2 gap-8">
                         <div>
                             <p className="text-gray-700 mb-4 leading-relaxed">
-                                Regelmæssig service er den bedste investering i din bils levetid. Mercedes-Benz og andre premium biler er konstrueret til at holde i mange år, men kun hvis de vedligeholdes korrekt efter producentens anbefalinger.
+                                Regelmæssig service er den bedste investering i din bils levetid. Mercedes og andre premium biler er konstrueret til at holde i mange år, men kun hvis de vedligeholdes korrekt efter producentens anbefalinger.
                             </p>
                             <p className="text-gray-700 mb-4 leading-relaxed">
                                 Ved et serviceeftersyn udskifter vi motorolie og filtre, kontrollerer væsker, bremser, dæk, lys og alle sikkerhedskritiske komponenter. Dette forebygger nedbrud og sikrer optimal brændstofeffektivitet.
@@ -162,7 +205,7 @@ export default function ReparationerPage() {
 
                             <div className="mt-6 pt-6 border-t border-green-200">
                                 <p className="text-sm text-gray-700 italic">
-                                    Mercedes-Benz anbefaler service hvert år eller hver 25.000 km, afhængigt af model og køremønster.
+                                    Mercedes anbefaler service hvert år eller hver 25.000 km, afhængigt af model og køremønster.
                                 </p>
                             </div>
                         </div>

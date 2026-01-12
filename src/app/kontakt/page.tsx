@@ -8,9 +8,9 @@ export default function AboutPage() {
             {/* Hero Section */}
             <div className="text-primary py-10 pt-25">
                 <div className="max-w-6xl mx-auto text-center">
-                    <div className="text-2xl md:text-3xl font-bold mb-6">Kontakt JVM Autoteknik</div>
+                    <div className="text-2xl md:text-3xl font-bold mb-6">Kontakt JMV Autoteknik</div>
                     <p className="text-xl max-w-3xl mx-auto text-black">
-                        Dit lokale autoværksted med specialisering i Mercedes-Benz
+                        Dit lokale autoværksted med specialisering i Mercedes
                     </p>
                 </div>
             </div>
@@ -101,7 +101,7 @@ export default function AboutPage() {
                             allowFullScreen
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
-                            title="JVM Autoteknik Location"
+                            title="JMV Autoteknik Location"
                         />
                     </div>
                     <div className="p-4 bg-gray-50 text-black text-center">
@@ -111,7 +111,7 @@ export default function AboutPage() {
 
                 {/* Why Choose Us Section */}
                 <div className="mt-16 bg-primary rounded-xl shadow-xl p-12 text-white">
-                    <h2 className="text-3xl font-bold mb-8 text-center">Hvorfor Vælge JVM Autoteknik?</h2>
+                    <h2 className="text-3xl font-bold mb-8 text-center">Hvorfor Vælge JMV Autoteknik?</h2>
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="text-center">
                             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -128,7 +128,7 @@ export default function AboutPage() {
                             </div>
                             <h3 className="font-semibold text-xl mb-2">Erfaring</h3>
                             <p className="text-blue-100">
-                                Mange års erfaring med alle bilmærker, især Mercedes-Benz
+                                Mange års erfaring med alle bilmærker, især Mercedes
                             </p>
                         </div>
                         <div className="text-center">

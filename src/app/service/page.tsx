@@ -5,7 +5,7 @@ import {IconButton} from "@/app/buttons/iconButton";
 export const metadata = {
     title: "JMV Autoteknik | Dit ekspert værksted i Silkeborg - Industrivej 1",
     description:
-        "Professionelt autoværksted i Silkeborg med speciale i Mercedes-Benz. Ring på 30237077. Her foretages service og reparationer af alle bilmærker.",
+        "Professionelt autoværksted i Silkeborg med speciale i Mercedes. Ring på 30237077. Her foretages service og reparationer af alle bilmærker.",
     openGraph: {
         url: 'https://jmv-autoteknik.dk/service',
     },
@@ -63,7 +63,7 @@ export default function ServicePage() {
                 <div className="text-primary font-bold text-2xl md:text-3xl my-5">Service & Vedligeholdelse</div>
                 <p className="text-xl text-black max-w-3xl mx-5">
                     Hold din bil i topform med professionel service. Vi tilbyder alle former for vedligeholdelse til
-                    Mercedes-Benz og andre bilmærker.
+                    Mercedes og andre bilmærker.
                 </p>
             </div>
 
@@ -275,7 +275,7 @@ export default function ServicePage() {
                                 <p className="font-semibold text-gray-900 mb-1">Bemærk:</p>
                                 <p className="text-gray-700 text-sm">
                                     Serviceintervaller kan variere afhængigt af bilmodel, årgang og køremønster.
-                                    Mercedes-Benz modeller har ofte specifikke krav. Kontakt os for en skræddersyet
+                                    Mercedes modeller har ofte specifikke krav. Kontakt os for en skræddersyet
                                     serviceplan til din bil.
                                 </p>
                             </div>
