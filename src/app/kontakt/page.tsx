@@ -1,6 +1,7 @@
 "use client";
 import { MapPin, Clock, Phone, Mail, Wrench, Users } from 'lucide-react';
 import {OpenMapsText, OpenMapsTextOnly} from "@/app/openMaps";
+import React from "react";
 
 export default function AboutPage() {
     return (
@@ -94,10 +95,10 @@ export default function AboutPage() {
                     </div>
                     <div className="relative w-full h-96 lg:h-[500px]">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2230.4!2d9.6!3d56.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTbCsDA2JzAwLjAiTiA5wrAzNicwMC4wIkU!5e0!3m2!1sda!2sdk!4v1234567890"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Industrivej%201+(JMV%20Autoteknik)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                             width="100%"
                             height="100%"
-                            style={{ border: 0 }}
+                            style={{border: 0}}
                             allowFullScreen
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
