@@ -44,7 +44,7 @@ export default function Frontpage() {
                             </li>
                             <li className="flex justify-between items-center">
                                 <p>Stor gennemgang</p>
-                                <p>750 kr. inkl. moms</p>
+                                <p>650 kr. inkl. moms</p>
                             </li>
                             <li className="flex justify-between items-center">
                                 <p>Diagnose via tester</p>
