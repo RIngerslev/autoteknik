@@ -11,49 +11,15 @@ import 'swiper/css/pagination';
 
 const ImageSlider = () => {
     const slides = [
-        {
-            id: 1,
-            title: "Service A/B",
-            content: "Service laves på alle mercedes biler",
-            image: "/car.jpg"
-        },
-        {
-            id: 2,
-            title: "Reparation",
-            content: "Professionel reparation af alle bilmærker",
-            image: "/car.jpg"
-        },
-        {
-            id: 3,
-            title: "Vedligeholdelse",
-            content: "Regelmæssig vedligeholdelse",
-            image: "/car.jpg"
-        },
-        {
-            id: 4,
-            title: "Diagnose",
-            content: "Avanceret computerdiagnose og fejlsøgning",
-            image: "/car.jpg"
-        },
-        {
-            id: 5,
-            title: "Hjulskift",
-            content: "Udskiftning af dæk på alle biler",
-            image: "/car.jpg"
-        },
-        {
-            id: 6,
-            title: "Bremser",
-            content: "Udskiftning og reparation af bremser",
-            image: "/car.jpg"
-        },
-        {
-            id: 7,
-            title: "Motorolie",
-            content: "Skift af motorolie og filtre",
-            image: "/car.jpg"
-        }
+        { id: 1, title: "Service A/B", content: "Service laves på alle mercedes biler", image: "/icons/service.svg" },
+        { id: 2, title: "Reparation", content: "Professionel reparation af alle bilmærker", image: "/icons/repair.svg" },
+        { id: 3, title: "Vedligeholdelse", content: "Regelmæssig vedligeholdelse", image: "/icons/wrenches.svg" },
+        { id: 4, title: "Diagnose", content: "Avanceret computerdiagnose og fejlsøgning", image: "/icons/tester.svg" },
+        { id: 5, title: "Hjulskift", content: "Udskiftning af dæk på alle biler", image: "/icons/wheel.svg" },
+        { id: 6, title: "Bremser", content: "Udskiftning og reparation af bremser", image: "/icons/brake.svg" },
+        { id: 7, title: "Motorolie", content: "Skift af motorolie og filtre", image: "/icons/oil.svg" }
     ];
+
 
     return (
         <div className="relative w-full max-w-7xl mx-auto px-2 lg:px-2">
@@ -99,13 +65,13 @@ const ImageSlider = () => {
             >
                 {slides.map((slide) => (
                     <SwiperSlide key={slide.id} className="h-auto">
-                        <div className='h-70 lg:h-80 bg-primary rounded-xl overflow-hidden'>
+                        <div className='h-70 lg:h-80 bg-primary rounded-xl overflow-hidden shadow-xl'>
                             <div className="relative h-36 lg:h-44">
                                 <Image
                                     src={slide.image}
                                     alt={slide.title}
                                     fill
-                                    className="object-cover"
+                                    className="p-5"
                                 />
                             </div>
                             <div className='text-center text-white p-2 pt-4'>

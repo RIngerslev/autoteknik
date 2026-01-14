@@ -31,8 +31,8 @@ export default function Frontpage() {
                     <div className='mx-3 md:mr-2 text-xl'>
                         <h1 className='text-center font-bold mt-4'>Mercedes-ekspert i Silkeborg</h1>
                         <h2 className='mt-4'>
-                            Her er der mange års erfaring med avanceret fejlsøgning og komplekse reparationer. JMV Autoteknik her mødes
-                            faglig ekspertise, kvalitet og konkurrencedygtige priser.
+                            Her er der mange års erfaring med avanceret fejlsøgning og komplekse reparationer til en fair pris. Vores mål er kvalitet og
+                            faglig ekspertise til konkurrencedygtige priser.
                         </h2>
                     </div>
                     <div className='bg-primary mx-2 px-5 py-4 mb-10 flex flex-col text-white rounded-2xl shadow-2xl'>
@@ -40,7 +40,7 @@ export default function Frontpage() {
                         <ul className='flex flex-col mt-4 gap-y-1'>
                             <li className="flex justify-between items-center">
                                 <p>Timepris</p>
-                                <p>750 kr. inkl. moms</p>
+                                <p>650 kr. inkl. moms</p>
                             </li>
                             <li className="flex justify-between items-center">
                                 <p>Stor gennemgang</p>
@@ -48,7 +48,7 @@ export default function Frontpage() {
                             </li>
                             <li className="flex justify-between items-center">
                                 <p>Diagnose via tester</p>
-                                <p>550 kr. inkl. moms</p>
+                                <p>350 kr. inkl. moms</p>
                             </li>
                         </ul>
                     </div>
@@ -70,6 +70,28 @@ export default function Frontpage() {
                         </ul>
                         <h2 className='mt-5 font-bold'>Pris: 750 kr. inkl. moms</h2>
                     </div>
+                    <div className='mx-3 md:mr-2 text-xl'>
+                        <h2 className='text-center font-bold mt-4'>Mercedes- og personbil-mekaniker i Silkeborg</h2>
+                        <p className='mt-4'>
+                            Erfaren Mercedes mekaniker specialiseret i avanceret fejlsøgning, motor- og gearkasse-reparationer samt serviceeftersyn. Vi tilbyder reparationer og vedligeholdelse
+                            for personbiler.
+                        </p>
+
+                        <h2 className='text-center font-bold mt-6'>Fornuftige priser, hurtig service og god kvalitet</h2>
+                        <p className='mt-4'>
+                            JMV Autoteknik leverer gennemsigtige priser, autoriseret værkstedsservice og kort ventetid.
+                            Ideelt for bilejere i Silkeborg der søger en mekaniker, der har solid erfaring med reparationer og service til Mercedes samt andre biler.
+                        </p>
+                    </div>
+                    <div className='flex justify-center item-center flex-col mx-3 md:mr-2 text-xl mb-15'>
+                        <h2 className='text-center font-bold mt-4'>Kvalitets service til en fair pris</h2>
+                        <p className='mt-4'>
+                            Vores mål er at levere pålidelig service til en fair pris. Vi gør det, fordi vi brænder for
+                            god kundeservice, grundigt håndværk og at holde din Mercedes eller personbil sikkert på vejen. Kontakt os for
+                            ærlig rådgivning, et klart tilbud og hurtig hjælp.
+                        </p>
+                    </div>
+
                     <div className='text-primary text-center mb-10 font-bold'>
                         <h1 className='my-2 text-black'>Speciale i Mercedes</h1>
                         <div className='flex mt-8 mx-4'>

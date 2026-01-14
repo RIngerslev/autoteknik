@@ -12,14 +12,14 @@ export const Footer = () => {
           {/* Brand/About Section */}
           <div className="col-span-1">
             <h3 className="text-2xl font-bold mb-4">JMV Autoteknik</h3>
-            <p className="text-gray-300 mb-4 max-w-md">
-              Din pålidelige partner for kvalitetsreparationer og service af Mercedes
-            </p>
+            <h3 className="mb-4 max-w-md">
+              Din pålidelige partner for reparationer af høj kvalitet og service af alle biler i Silkeborg, med speciale i Mercedes
+            </h3>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=61586524023584"
                 target='_blank'
-                className="text-gray-300 hover:text-white transition-colors"
+                className="hover:text-gray-300 transition-colors"
                 aria-label="Facebook"
               >
                 <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
@@ -29,7 +29,7 @@ export const Footer = () => {
               <a
                 href="https://instagram.com"
                 target='_blank'
-                className="text-gray-300 hover:text-white transition-colors"
+                className="hover:text-gray-300 transition-colors"
                 aria-label="Instagram"
               >
                 <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24" >
@@ -52,24 +52,24 @@ export const Footer = () => {
           {/* Quick Links */}
           <div className='md:mx-auto'>
             <h4 className="text-lg font-semibold mb-4">Links</h4>
-            <ul className="space-y-2">
+            <ul className="space-y-2 hover:text-gray-300">
               <li>
-                <Link href="/service" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/service" className="transition-colors">
                   Service
                 </Link>
               </li>
               <li>
-                <Link href="/reparation" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/reparation" className="transition-colors">
                   Reparation
                 </Link>
               </li>
               <li>
-                <Link href="/kontakt" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/kontakt" className="transition-colors">
                   Kontakt
                 </Link>
               </li>
               <li>
-                <Link href="/om" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/om" className="transition-colors">
                   Om værkstedet
                 </Link>
               </li>
