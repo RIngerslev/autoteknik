@@ -68,7 +68,7 @@ export default function Frontpage() {
                             <li>✔ Undervogns- og motorrumstjek</li>
                             <li>✔ Væske- og elsystemkontrol</li>
                         </ul>
-                        <h2 className='mt-5 font-bold'>Pris: 750 kr. inkl. moms</h2>
+                        <h2 className='mt-5 font-bold'>Pris: 650 kr. inkl. moms</h2>
                     </div>
                     <div className='mx-3 md:mr-2 text-xl'>
                         <h2 className='text-center font-bold mt-4'>Mercedes- og personbil-mekaniker i Silkeborg</h2>
