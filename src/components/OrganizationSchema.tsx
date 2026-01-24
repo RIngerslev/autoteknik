@@ -15,17 +15,18 @@ export function OrganizationSchema() {
         email: 'kontakt@jmv-autoteknik.dk',
         url: 'https://jmv-autoteknik.dk',
         openingHours: ['Mo-Fr 08:00-16:00'],
-        image: 'https://jmv-autoteknik.dk/favicon/web-app-manifest-512x512.png',
+        image: 'https://jmv-autoteknik.dk/og-image.png',
+        logo: 'https://jmv-autoteknik.dk/favicon/web-app-manifest-512x512.png',
         areaServed: {
             '@type': 'City',
             name: 'Silkeborg'
         }
     };
 
+    // Render JSON-LD as script child (avoids dangerouslySetInnerHTML lint warning)
     return (
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <script type="application/ld+json">
+            {JSON.stringify(jsonLd)}
+        </script>
     );
 }

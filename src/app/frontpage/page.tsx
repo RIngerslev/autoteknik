@@ -6,7 +6,7 @@ import ImageSlider from "@/app/swiper";
 export default function Frontpage() {
 
     return (
-        <div className='w-full flex flex-col items-center justify-center bg-gray-50 text-shadow-md'>
+        <div className='w-full flex flex-col items-center justify-center bg-gray-50 text-shadow-md mb-5'>
             <div className="relative w-full h-[250px] md:h-[450px] shadow-lg">
                 <Image
                     src="/mercedes-benz.jpg"
@@ -27,7 +27,7 @@ export default function Frontpage() {
                 </div>
             </div>
             <div className='max-w-5xl'>
-                <div className="text-black grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+                <div className="text-black grid grid-cols-1 md:grid-cols-2 gap-6 md:my-8">
                     <div className='mx-3 md:mr-2 text-xl'>
                         <h1 className='text-center font-bold mt-4'>Mercedes-ekspert i Silkeborg</h1>
                         <h2 className='mt-4'>
@@ -57,7 +57,7 @@ export default function Frontpage() {
                     <ImageSlider/>
                 </div>
                 <div className="text-black grid grid-cols-1 md:grid-cols-2 gap-6 my-4 mx-2">
-                    <div className='bg-primary px-3 py-3 mb-10 flex flex-col text-white rounded-2xl shadow-2xl'>
+                    <div className='bg-primary px-5 py-4 mb-10 flex flex-col text-white rounded-2xl shadow-2xl'>
                         <h1 className='font-bold'>Få gennemgået din bil</h1>
                         <h2>Undgå kostbare reparationer med en grundig gennemgang. Som Mercedes-ekspert bliver
                             fejlene fundet tidligt og holder din bil kørende optimalt.</h2>
@@ -70,7 +70,16 @@ export default function Frontpage() {
                         </ul>
                         <h2 className='mt-5 font-bold'>Pris: 650 kr. inkl. moms</h2>
                     </div>
-                    <div className='mx-3 md:mr-2 text-xl'>
+                    <div>
+                        <Image
+                            src="/jacob-no-background.webp"
+                            alt="Ejer af værkstedet står med arme over kors"
+                            width={160}
+                            height={200}
+                            className="mx-auto p-1 rounded-xl"
+                        />
+                    </div>
+                    <div className='mx-3 md:mr-2 px-4 text-xl'>
                         <h2 className='text-center font-bold mt-4'>Mercedes- og personbil-mekaniker i Silkeborg</h2>
                         <p className='mt-4'>
                             Erfaren Mercedes mekaniker specialiseret i avanceret fejlsøgning, motor- og gearkasse-reparationer samt serviceeftersyn. Vi tilbyder reparationer og vedligeholdelse
@@ -83,16 +92,7 @@ export default function Frontpage() {
                             Ideelt for bilejere i Silkeborg der søger en mekaniker, der har solid erfaring med reparationer og service til Mercedes samt andre biler.
                         </p>
                     </div>
-                    <div className='flex justify-center item-center flex-col mx-3 md:mr-2 text-xl mb-15'>
-                        <h2 className='text-center font-bold mt-4'>Kvalitets service til en fair pris</h2>
-                        <p className='mt-4'>
-                            Vores mål er at levere pålidelig service til en fair pris. Vi gør det, fordi vi brænder for
-                            god kundeservice, grundigt håndværk og at holde din Mercedes eller personbil sikkert på vejen. Kontakt os for
-                            ærlig rådgivning, et klart tilbud og hurtig hjælp.
-                        </p>
-                    </div>
-
-                    <div className='text-primary text-center mb-10 font-bold'>
+                    <div className='text-primary text-center my-auto font-bold'>
                         <h1 className='my-2 text-black'>Speciale i Mercedes</h1>
                         <div className='flex mt-8 mx-4'>
                             <div className='bg-primary p-2 rounded-l-full shadow-lg'>

@@ -1,8 +1,25 @@
-"use client";
 import React from 'react';
 import {Car, Clock, MapPin, Users, Wrench} from 'lucide-react';
 import {OpenMapsText} from "@/app/openMaps";
 import {OrganizationSchema} from "@/components/OrganizationSchema";
+import Image from "next/image";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: "Om JMV Autoteknik | Dit ekspert værksted i Silkeborg - Industrivej 1",
+    description:
+        "Lær mere om JMV Autoteknik, dit pålidelige autoværksted i Silkeborg med speciale i Mercedes. Vi tilbyder ærlig rådgivning og kvalitetsservice.",
+    openGraph: {
+        title: "Om JMV Autoteknik – Autoværksted i Silkeborg",
+        description:
+            "Dit værksted i Silkeborg. Læs om JMV Autotekniks erfaring, værdier og engagement i kvalitetsservice.",
+        locale: "da_DK",
+        type: "website",
+    },
+    alternates: {
+        canonical: 'https://jmv-autoteknik.dk/om',
+    }
+}
 
 export default function AboutPage() {
     return (
@@ -13,37 +30,49 @@ export default function AboutPage() {
                 <div className="text-primary py-10 pt-30">
                     <div className="max-w-6xl mx-auto text-center">
                         <div className="text-2xl md:text-3xl font-bold">Om JMV Autoteknik</div>
-                        <div className="mt-2">Erfaring, kvalitet og passion for Mercedes</div>
                     </div>
                 </div>
 
-                <div className="max-w-6xl mx-auto px-4 pb-8">
+                <div className="max-w-6xl mx-auto px-4 pb-8 pt-4">
                     {/* Main Content Grid */}
                     <div className="gap-12 mb-16">
                         {/* About Text */}
                         <div>
                             <div className="space-y-4 text-black leading-relaxed">
-                                <p>
-                                    Hos JMV Autoteknik står mange års erfaring fra autoriserede og specialiserede
-                                    værksteder bag. Vi har speciale i Mercedes, men servicerer alle bilmærker med
-                                    moderne diagnoseudstyr og kvalitets dele.
-                                </p>
-                                <p>
-                                    Vi tror på ærlig rådgivning og transparent kommunikation. Du får altid en grundig
-                                    gennemgang af din bils tilstand og en klar forklaring på, hvad der skal gøres. Her
-                                    er ingen overraskelser, kun professionelt håndværk vi selv kan stå inde for.
-                                </p>
+                                <div className="flex flex-col md:flex-row items-center gap-6">
+                                    <div className="mr-5">
+                                        <h1 className="flex text-primary">Erfaring, kvalitet og passion for Mercedes</h1>
+                                    <p>
+                                        Hos JMV Autoteknik står mange års erfaring fra autoriserede og specialiserede
+                                        værksteder bag. Vi har speciale i Mercedes, men servicerer alle bilmærker med
+                                        moderne diagnoseudstyr og kvalitets dele.
+                                    </p>
+                                    <p>
+                                        Vi tror på ærlig rådgivning og transparent kommunikation. Du får altid en
+                                        grundig
+                                        gennemgang af din bils tilstand og en klar forklaring på, hvad der skal gøres.
+                                        Her
+                                        er ingen overraskelser, kun professionelt håndværk vi selv kan stå inde for.
+                                    </p>
+                                        <h1 className="flex pt-4 text-primary">Ærlighed, kvalitet og faglig
+                                            stolthed</h1>
+                                        <p>Et godt værkstedsbesøg handler om tillid. Derfor er ærlig rådgivning og klar
+                                            kommunikation i fokus. Alle reparationer forklares tydeligt – ingen overraskelser,
+                                            kun det nødvendige.</p>
 
-                                <h1 className="flex md:justify-center p-2 text-primary">Ærlighed, kvalitet og faglig
-                                    stolthed</h1>
-                                <p>Et godt værkstedsbesøg handler om tillid. Derfor er ærlig rådgivning og klar
-                                    kommunikation i fokus. Alle reparationer forklares tydeligt – ingen overraskelser,
-                                    kun det nødvendige.</p>
-
-                                <h1 className="flex md:justify-center p-2 text-primary">Din bil er i trykke hænder</h1>
-                                <p>JMV Autoteknik kombinerer mange års erfaring med faglig stolthed og passion for
-                                    detaljen. Med speciale i Mercedes bliver hver bil behandlet med samme omhu og
-                                    professionalisme – uanset om det er service eller reparation.</p>
+                                        <h1 className="flex pt-4 text-primary">Din bil er i trykke hænder</h1>
+                                        <p>JMV Autoteknik kombinerer mange års erfaring med faglig stolthed og passion for
+                                            detaljen. Med speciale i Mercedes bliver hver bil behandlet med samme omhu og
+                                            professionalisme – uanset om det er service eller reparation.</p>
+                                    </div>
+                                    <Image
+                                        src="/jacob-desk.webp"
+                                        alt="Ejer af værkstedet står med arme over kors"
+                                        width={350}
+                                        height={250}
+                                        className="mx-auto p-1 rounded-xl"
+                                    />
+                                </div>
                             </div>
 
                             {/* Features */}

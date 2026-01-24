@@ -1,7 +1,23 @@
-"use client";
 import { MapPin, Clock, Phone, Mail, Wrench, Users } from 'lucide-react';
 import {OpenMapsText, OpenMapsTextOnly} from "@/app/openMaps";
 import React from "react";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: "Kontakt JMV Autoteknik | Dit lokale autoværksted i Silkeborg",
+    description:
+        "Kontakt JMV Autoteknik i Silkeborg for professionel service og reparation af din bil. Ring på 30237077 eller besøg os på Industrivej 1.",
+    openGraph: {
+        title: "Kontakt JMV Autoteknik – Dit lokale autoværksted i Silkeborg",
+        description:
+            "Få professionel hjælp til din bil hos JMV Autoteknik. Kontakt os i dag for service og reparationer af alle bilmærker.",
+        locale: "da_DK",
+        type: "website",
+    },
+    alternates: {
+        canonical: 'https://jmv-autoteknik.dk/kontakt',
+    }
+}
 
 export default function AboutPage() {
     return (

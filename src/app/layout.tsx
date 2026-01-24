@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./navigation/navBar";
 import { Footer } from "./navigation/footer";
+import { OrganizationSchema } from "../components/OrganizationSchema";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,7 +27,8 @@ export const metadata: Metadata = {
         type: "website",
         images: [
             {
-                url: '/og-image.jpg',
+                // use the actual OG image that exists in public/
+                url: '/og-image.png',
                 width: 1200,
                 height: 630,
                 alt: 'JMV Autoteknik',
@@ -37,13 +39,13 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'JMV Autoteknik',
         description: 'Mercedes specialist i Silkeborg.',
-        images: ['/og-image.jpg'],
+        images: ['/og-image.png'],
     },
     icons: {
         icon: [
-            { url: '/favicon.ico' },
-            { url: '/favicon/favicon.svg', type: 'image/svg+xml' },
+            // point to existing favicon files under public/favicon/
             { url: '/favicon/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+            { url: '/favicon/favicon.svg', type: 'image/svg+xml' },
         ],
         apple: [
             { url: '/favicon/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
@@ -61,11 +63,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="da">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
       <Navbar />
+      <OrganizationSchema />
         {children}
       <Footer />
       </body>
