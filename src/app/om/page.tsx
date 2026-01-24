@@ -65,13 +65,15 @@ export default function AboutPage() {
                                             detaljen. Med speciale i Mercedes bliver hver bil behandlet med samme omhu og
                                             professionalisme – uanset om det er service eller reparation.</p>
                                     </div>
+                                    <div className="w-full sm:min-w-[370px]">
                                     <Image
                                         src="/jacob-desk.webp"
                                         alt="Ejer af værkstedet står med arme over kors"
-                                        width={350}
+                                        width={700}
                                         height={250}
-                                        className="mx-auto p-1 rounded-xl"
+                                        className="rounded-xl"
                                     />
+                                </div>
                                 </div>
                             </div>
 
