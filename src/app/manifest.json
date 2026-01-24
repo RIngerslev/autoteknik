@@ -1,6 +1,7 @@
 {
   "name": "JMV Autoteknik",
   "short_name": "JMV",
+  "start_url": "/",
   "icons": [
     {
       "src": "/favicon/web-app-manifest-192x192.png",
