@@ -9,7 +9,7 @@ export default function Frontpage() {
         <div className='w-full flex flex-col items-center justify-center bg-gray-50 text-shadow-md mb-5'>
             <div className="relative w-full h-[250px] md:h-[450px] shadow-lg">
                 <Image
-                    src="/mercedes-benz.jpg"
+                    src="/mercedes-benz.webp"
                     alt="mercedes"
                     fill
                     className="object-cover"
