@@ -70,7 +70,6 @@ export default function RootLayout({
       <Navbar />
         {children}
       <Footer />
-        <AnalyticsTracker />
       {/* Google tag (gtag.js) */}
       <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-18019535668"
