@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./navigation/navBar";
 import { Footer } from "./navigation/footer";
+import Script from "next/script";
+import AnalyticsTracker from "@/app/google/analyticsTracker";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -68,6 +70,22 @@ export default function RootLayout({
       <Navbar />
         {children}
       <Footer />
+        <AnalyticsTracker />
+      {/* Google tag (gtag.js) */}
+      <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18019535668"
+          strategy="afterInteractive"
+      />
+      <Script id="google-tag" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', 'AW-18019535668');
+          `}
+      </Script>
+
       </body>
     </html>
   );

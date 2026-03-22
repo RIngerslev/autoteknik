@@ -60,7 +60,7 @@ export default function AboutPage() {
                                             kommunikation i fokus. Alle reparationer forklares tydeligt – ingen overraskelser,
                                             kun det nødvendige.</p>
 
-                                        <h1 className="flex pt-4 text-primary">Din bil er i trykke hænder</h1>
+                                        <h1 className="flex pt-4 text-primary">Din bil er i trygge hænder</h1>
                                         <p>JMV Autoteknik kombinerer mange års erfaring med faglig stolthed og passion for
                                             detaljen. Med speciale i Mercedes bliver hver bil behandlet med samme omhu og
                                             professionalisme – uanset om det er service eller reparation.</p>

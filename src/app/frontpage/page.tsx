@@ -29,14 +29,13 @@ export default function Frontpage() {
             <div className='max-w-5xl'>
                 <div className="text-black grid grid-cols-1 md:grid-cols-2 gap-6 md:my-8">
                     <div className='mx-3 md:mr-2 text-xl'>
-                        <h1 className='text-center font-bold mt-4'>Mercedes-ekspert i Silkeborg</h1>
-                        <h2 className='mt-4'>
-                            Her er der mange års erfaring med avanceret fejlsøgning og komplekse reparationer til en fair pris. Vores mål er kvalitet og
-                            faglig ekspertise til konkurrencedygtige priser.
-                        </h2>
+                        <h1 className='text-center text-2xl font-bold mt-4'>Mercedes specialist i Silkeborg</h1>
+                        <p className='mt-4 text-lg'>
+                            Ekspert i Midtjylland med mange års erfaring i avanceret fejlsøgning og reparationer. Fra vores værksted i Jylland tilbyder vores mekaniker professionel service, høj kvalitet og stærk teknisk ekspertise til jyske priser.
+                        </p>
                     </div>
-                    <div className='bg-primary mx-2 px-5 py-4 mb-10 flex flex-col text-white rounded-2xl shadow-2xl'>
-                        <h1 className='font-bold text-center'>Faste priser</h1>
+                    <div className='bg-primary mx-2 px-5 py-4 mb-10 flex flex-col text-white rounded-2xl shadow-2xl text-lg'>
+                        <h1 className='font-bold text-center text-2xl'>Faste priser</h1>
                         <ul className='flex flex-col mt-4 gap-y-1'>
                             <li className="flex justify-between items-center">
                                 <p>Timepris</p>
