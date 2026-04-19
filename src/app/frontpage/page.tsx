@@ -87,7 +87,7 @@ export default function Frontpage() {
 
                         <h2 className='text-center font-bold mt-6'>Fornuftige priser, hurtig service og god kvalitet</h2>
                         <p className='mt-4'>
-                            JMV Autoteknik leverer gennemsigtige priser, autoriseret værkstedsservice og kort ventetid.
+                            JMV Autoteknik leverer gennemsigtige priser, god værkstedsservice og kort ventetid.
                             Ideelt for bilejere i Silkeborg der søger en mekaniker, der har solid erfaring med reparationer og service til Mercedes samt andre biler.
                         </p>
                     </div>
