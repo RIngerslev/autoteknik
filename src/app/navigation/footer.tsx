@@ -83,6 +83,7 @@ export const Footer = () => {
                 <ul>Mandag - Fredag: 08:00 - 16:00</ul>
                 <ul>Lørdag: Lukket</ul>
                 <ul>Søndag: Lukket</ul>
+                <ul>16/7 & 17/7: Lukket</ul>
               </ul>
             </div>}
         </div>
