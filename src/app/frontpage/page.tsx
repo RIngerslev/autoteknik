@@ -12,7 +12,7 @@ export default function Frontpage() {
                     src="/mercedes-benz.webp"
                     alt="mercedes"
                     fill
-                    className="object-cover"
+                    className="object-cover scale-x-[-1]"
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-black/70">
                     <div className="flex flex-col items-center gap-y-2">
