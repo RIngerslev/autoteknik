@@ -60,7 +60,7 @@ export default function ReparationerPage() {
         <div className="min-h-screen bg-gray-50 text-shadow-md">
             <div className="max-w-6xl mx-auto px-4 py-12">
                 <div className="flex justify-center items-center my-10">
-                    <div className="text-primary font-bold text-2xl md:text-3xl md:my-5">Professionelle Bilreparationer</div>
+                    <h1 className="text-primary font-bold text-2xl md:text-3xl md:my-5">Professionelle Bilreparationer</h1>
                 </div>
 
                 {/* Elektronisk Fejlfinding */}

@@ -1,4 +1,4 @@
-import Frontpage from "@/app/frontpage/page";
+import Frontpage from "@/app/_frontpage/page";
 import {OrganizationSchema} from "@/components/OrganizationSchema";
 import React from "react";
 import { Metadata } from 'next';

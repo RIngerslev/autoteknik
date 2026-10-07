@@ -3,7 +3,7 @@ import {Droplets, Thermometer, Calendar, Shield, Clock, CheckCircle, AlertCircle
 import {IconButton} from "@/app/buttons/iconButton";
 
 export const metadata = {
-    title: "JMV Autoteknik | Dit ekspert værksted i Silkeborg - Industrivej 1",
+    title: "Service & Vedligeholdelse JMV Autoteknik | Silkeborg - Industrivej 1",
     description:
         "Professionelt autoværksted i Silkeborg med speciale i Mercedes. Ring på 30237077. Her foretages service og reparationer af alle bilmærker.",
     openGraph: {
@@ -60,7 +60,7 @@ export default function ServicePage() {
         <div className="min-h-screen bg-gray-50 text-shadow-md">
             {/* Hero Section */}
             <div className="flex justify-center items-center flex-col pt-25">
-                <div className="text-primary font-bold text-2xl md:text-3xl my-5">Service & Vedligeholdelse</div>
+                <h1 className="text-primary font-bold text-2xl md:text-3xl my-5">Service & Vedligeholdelse</h1>
                 <p className="text-xl text-black max-w-3xl mx-5">
                     Hold din bil i topform med professionel service. Vi tilbyder alle former for vedligeholdelse til
                     Mercedes og andre bilmærker.

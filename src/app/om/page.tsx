@@ -54,13 +54,13 @@ export default function AboutPage() {
                                         Her
                                         er ingen overraskelser, kun professionelt håndværk vi selv kan stå inde for.
                                     </p>
-                                        <h1 className="flex pt-4 text-primary">Ærlighed, kvalitet og faglig
-                                            stolthed</h1>
+                                        <h2 className="flex pt-4 text-primary">Ærlighed, kvalitet og faglig
+                                            stolthed</h2>
                                         <p>Et godt værkstedsbesøg handler om tillid. Derfor er ærlig rådgivning og klar
                                             kommunikation i fokus. Alle reparationer forklares tydeligt – ingen overraskelser,
                                             kun det nødvendige.</p>
 
-                                        <h1 className="flex pt-4 text-primary">Din bil er i trygge hænder</h1>
+                                        <h2 className="flex pt-4 text-primary">Din bil er i trygge hænder</h2>
                                         <p>JMV Autoteknik kombinerer mange års erfaring med faglig stolthed og passion for
                                             detaljen. Med speciale i Mercedes bliver hver bil behandlet med samme omhu og
                                             professionalisme – uanset om det er service eller reparation.</p>

@@ -11,18 +11,19 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand/About Section */}
           <div className="col-span-1">
-            <h3 className="text-2xl font-bold mb-4">JMV Autoteknik</h3>
-            <h3 className="mb-4 max-w-md">
+            <div className="text-2xl font-bold mb-4">JMV Autoteknik</div>
+            <div className="mb-4 max-w-md">
               Din pålidelige partner for reparationer af høj kvalitet og service af alle biler i Silkeborg, med speciale i Mercedes
-            </h3>
+            </div>
             <div className="flex space-x-4">
               <a
                 href="https://www.facebook.com/profile.php?id=61586524023584"
                 target='_blank'
                 className="hover:text-gray-300 transition-colors"
-                aria-label="Facebook"
+                aria-label="Facebook" rel="noopener"
               >
                 <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                    <title id="facebookIconTitle">Instagram</title>
                   <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                 </svg>
               </a>
@@ -30,7 +31,7 @@ export const Footer = () => {
                 href="https://instagram.com"
                 target='_blank'
                 className="hover:text-gray-300 transition-colors"
-                aria-label="Instagram"
+                aria-label="Instagram" rel="noopener"
               >
                 <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24" >
                    <title id="instagramIconTitle">Instagram</title>
@@ -51,25 +52,25 @@ export const Footer = () => {
 
           {/* Quick Links */}
           <div className='md:mx-auto'>
-            <h4 className="text-lg font-semibold mb-4">Links</h4>
-            <ul className="space-y-2 hover:text-gray-300">
+            <div className="text-lg font-semibold mb-4">Links</div>
+            <ul className="space-y-2">
               <li>
-                <Link href="/service" className="transition-colors">
+                <Link href="/service" className="transition-colors hover:text-gray-300">
                   Service
                 </Link>
               </li>
               <li>
-                <Link href="/reparation" className="transition-colors">
+                <Link href="/reparation" className="transition-colors hover:text-gray-300">
                   Reparation
                 </Link>
               </li>
               <li>
-                <Link href="/kontakt" className="transition-colors">
+                <Link href="/kontakt" className="transition-colors hover:text-gray-300">
                   Kontakt
                 </Link>
               </li>
               <li>
-                <Link href="/om" className="transition-colors">
+                <Link href="/om" className="transition-colors hover:text-gray-300">
                   Om værkstedet
                 </Link>
               </li>
@@ -78,12 +79,11 @@ export const Footer = () => {
 
           {/* Åbningstider */
             <div className='md:mx-auto'>
-              <h4 className="text-lg font-semibold mb-4">Åbningstider</h4>
+              <div className="text-lg font-semibold mb-4">Åbningstider</div>
               <ul className="space-y-2">
                 <ul>Mandag - Fredag: 08:00 - 16:00</ul>
                 <ul>Lørdag: Lukket</ul>
                 <ul>Søndag: Lukket</ul>
-                <ul>16/7 & 17/7: Lukket</ul>
               </ul>
             </div>}
         </div>
