@@ -1,14 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
+import { Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./navigation/navBar";
 import { Footer } from "./navigation/footer";
 import Script from "next/script";
 import AnalyticsTracker from "@/app/google/analyticsTracker";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const roboto = localFont({
+  src: "./fonts/Roboto-latin.woff2",
+  variable: "--font-roboto",
+  weight: "400 700",
+  style: "normal",
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
@@ -17,6 +21,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+    metadataBase: new URL("https://jmv-autoteknik.dk"),
     title: "JMV Autoteknik | Dit ekspert værksted i Silkeborg - Industrivej 1",
     description:
         "Professionelt autoværksted i Silkeborg med speciale i Mercedes. Ring på 30237077. Her foretages service og reparationer af alle bilmærker.",
@@ -65,7 +70,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${roboto.variable} ${geistMono.variable} antialiased`}
       >
       <Navbar />
         {children}

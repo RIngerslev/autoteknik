@@ -34,7 +34,7 @@ export default function Navbar() {
     return (
         <div className="fixed bg-primary top-0 left-0 w-full z-50 flex items-center justify-between px-2 md:px-4 py-1.5 shadow-md">
                 <Link href="/" className="flex justify-center items-center w-35 h-15 ml-2">
-                    <Image src="JMV-logo-optimized.svg" alt="Logo" width={400} height={400}/>
+                    <Image src="JMV-logo-optimized.svg" alt="Logo" width={400} height={400} fetchPriority="high"/>
                 </Link>
             <div className="hidden md:flex items-center space-x-6">
                 <IconButton className="bg-white text-primary" text='Bestil tid' iconName='phonePrimary' href="tel:30237077" />
@@ -113,6 +113,7 @@ export default function Navbar() {
                     id="buttonMenu"
                     className={`btn ${menuActive ? "active" : "not-active"}`}
                     onClick={handleMenuClick}
+                    aria-label="Toggle navigation menu"
                 >
                     <span className="buttonSpan"></span><span className="buttonSpan"></span><span className="buttonSpan"></span>
                 </button>

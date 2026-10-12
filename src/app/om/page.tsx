@@ -1,6 +1,7 @@
 import React from 'react';
 import {Car, Clock, MapPin, Users, Wrench} from 'lucide-react';
 import {OpenMapsText} from "@/app/openMaps";
+import {GOOGLE_MAPS_EMBED_URL} from "@/app/mapLocation";
 import {OrganizationSchema} from "@/components/OrganizationSchema";
 import Image from "next/image";
 import {Metadata} from "next";
@@ -121,7 +122,7 @@ export default function AboutPage() {
                         </div>
                         <div className="relative w-full h-96 lg:h-[500px]">
                             <iframe
-                                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Industrivej%201+(JMV%20Autoteknik)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                                src={GOOGLE_MAPS_EMBED_URL}
                                 width="100%"
                                 height="100%"
                                 style={{border: 0}}

@@ -81,9 +81,9 @@ export const Footer = () => {
             <div className='md:mx-auto'>
               <div className="text-lg font-semibold mb-4">Åbningstider</div>
               <ul className="space-y-2">
-                <ul>Mandag - Fredag: 08:00 - 16:00</ul>
-                <ul>Lørdag: Lukket</ul>
-                <ul>Søndag: Lukket</ul>
+                <li>Mandag - Fredag: 08:00 - 16:00</li>
+                <li>Lørdag: Lukket</li>
+                <li>Søndag: Lukket</li>
               </ul>
             </div>}
         </div>

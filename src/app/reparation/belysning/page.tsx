@@ -52,13 +52,13 @@ export default function BelysningPage() {
 
             <div className="bg-green-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-4 text-gray-900">
-                Basic-pakken indeholder
+                Belysnings muligheder i kabinen
               </h3>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-2 mt-1 flex-shrink-0" />
                   <span className="text-gray-700">
-                    12 farver og 12 multifarvede kombinationer
+                    64 farver samt mulighed for multifarvede kombinationer
                   </span>
                 </li>
                 <li className="flex items-start">

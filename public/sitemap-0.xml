@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://jmv-autoteknik.dk/apple-icon.png</loc><lastmod>2026-09-22T15:26:39.751Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://jmv-autoteknik.dk/icon0.svg</loc><lastmod>2026-09-22T15:26:39.752Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://jmv-autoteknik.dk/icon1.png</loc><lastmod>2026-09-22T15:26:39.752Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://jmv-autoteknik.dk/kontakt</loc><lastmod>2026-09-22T15:26:39.752Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://jmv-autoteknik.dk/manifest.json</loc><lastmod>2026-09-22T15:26:39.752Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://jmv-autoteknik.dk/om</loc><lastmod>2026-09-22T15:26:39.752Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://jmv-autoteknik.dk</loc><lastmod>2026-09-22T15:26:39.752Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://jmv-autoteknik.dk/prisliste/mercedes</loc><lastmod>2026-09-22T15:26:39.752Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://jmv-autoteknik.dk/reparation/elektronisk-fejlfinding</loc><lastmod>2026-09-22T15:26:39.752Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://jmv-autoteknik.dk/reparation/hjulskift</loc><lastmod>2026-09-22T15:26:39.752Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://jmv-autoteknik.dk/reparation</loc><lastmod>2026-09-22T15:26:39.752Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://jmv-autoteknik.dk/reparation/service</loc><lastmod>2026-09-22T15:26:39.752Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://jmv-autoteknik.dk/service</loc><lastmod>2026-09-22T15:26:39.752Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/apple-icon.png</loc><lastmod>2026-10-12T09:32:23.257Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/icon0.svg</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/icon1.png</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/kontakt</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/manifest.json</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/om</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/prisliste/diagnose</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/prisliste/eftermontering</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/reparation/aircondition</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/reparation/belysning</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/reparation/carplay</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/reparation/elektronisk-fejlfinding</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/reparation/hjulskift</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/reparation</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/reparation/service</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://jmv-autoteknik.dk/service</loc><lastmod>2026-10-12T09:32:23.258Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

@@ -14,10 +14,12 @@ export default function Frontpage() {
                     fill
                     sizes="(max-width: 768px) 100vw, 100vw"
                     className="object-cover scale-x-[-1]"
+                    fetchPriority="high"
+                    loading="eager"
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-black/70">
                     <div className="flex flex-col items-center gap-y-2">
-                        <Image src="JMV-logo-optimized.svg" alt="Logo" width={400} height={400}
+                        <Image src="JMV-logo-optimized.svg" alt="Logo" width={400} height={400} fetchPriority="high"
                                className="mb-4 size-1/2 md:size-1/4"/>
                         <div className="flex items-center gap-x-3">
                             <IconButton className="bg-primary text-white" text='Bestil tid' iconName='phone'
@@ -114,9 +116,9 @@ export default function Frontpage() {
                             <Image
                                 src="/DBR-RBG.svg"
                                 alt="Dansk Bilbrancheråd"
-                                width={300}
-                                height={54}
-                                className="mx-auto"
+                                width={709}
+                                height={191}
+                                className="mx-auto w-[300px] h-auto"
                             />
                         </a>
                         <div className='flex mt-4 mx-4'>

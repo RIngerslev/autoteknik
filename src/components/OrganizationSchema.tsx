@@ -7,9 +7,14 @@ export function OrganizationSchema() {
         address: {
             '@type': 'PostalAddress',
             streetAddress: 'Industrivej 1',
-            addressLocality: 'Silkeborg',
-            postalCode: '8600',
+            addressLocality: 'Them',
+            postalCode: '8653',
             addressCountry: 'DK'
+        },
+        geo: {
+            '@type': 'GeoCoordinates',
+            latitude: 56.1035698,
+            longitude: 9.5755771
         },
         telephone: '+4530237077',
         email: 'kontakt@jmv-autoteknik.dk',
